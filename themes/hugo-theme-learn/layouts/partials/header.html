@@ -33,7 +33,24 @@
         }
       {{ end }}
     </style>
-    {{ partial "custom-header.html" . }}
+
+
+<link href="{{"codemirror/codemirror.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
+<link href="{{"codemirror/addon/hint/show-hint.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
+<link href="{{"codemirror/monokai.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
+
+<script src="{{"codemirror/codemirror.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+<script src="{{"codemirror/emmet.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+<script src="{{"codemirror/hint/show-hint.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+<script src="{{"codemirror/hint/xml-hint.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+<script src="{{"codemirror/hint/html-hint.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+<script src="{{"codemirror/xml/xml.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+<script src="{{"codemirror/javascript/javascript.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+<script src="{{"codemirror/css/css.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+<script src="{{"codemirror/htmlmixed/htmlmixed.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
+
+
+{{ partial "custom-header.html" . }}
   </head>
   <body class="" data-url="{{ .RelPermalink }}">
     {{ partial "menu.html" . }}
