@@ -1128,4 +1128,36 @@ pre .copy-to-clipboard:hover {
 
 /*# sourceMappingURL=theme.css.map */
 
+.blocreponse > input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
 
+.blocreponse > label { 
+  cursor: pointer;
+  user-select: none;
+  display:inline-block;
+  color:black;
+  background: yellow;
+font-weight: 100;
+}
+
+.blocreponse > span.reponse {
+   display:none;
+}
+
+/* checked */
+.blocreponse > input[type=checkbox]:checked ~ span.reponse {
+   display:block;
+background: #ccc;
+    padding:5px;
+}
+
+
+.blocreponse > label::selection {
+  background: transparent;
+}
+.blocreponse > label::-moz-selection {
+  background: transparent;
+}

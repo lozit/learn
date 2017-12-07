@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title> :: Apprendre HTML et CSS</title>
+    <title>Exercices :: Apprendre HTML et CSS</title>
     
     
     <link href="/css/nucleus.css?1512632994" rel="stylesheet">
@@ -33,7 +33,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/htmlcss/emmet/exercices/">
     <nav id="sidebar" class="">
 
 
@@ -75,7 +75,7 @@ Accueil
   
     
     <li data-nav-id="/htmlcss/" title="HTML &amp; CSS" class="dd-item 
-        
+        parent
         
         
         ">
@@ -102,7 +102,7 @@ Accueil
   
     
     <li data-nav-id="/htmlcss/emmet/" title="Emmet" class="dd-item 
-        
+        parent
         
         
         ">
@@ -164,7 +164,7 @@ Accueil
  
   
     
-      <li data-nav-id="/htmlcss/emmet/exercices/" title="Exercices" class="dd-item ">
+      <li data-nav-id="/htmlcss/emmet/exercices/" title="Exercices" class="dd-item active">
         <a href="/htmlcss/emmet/exercices/">
         Exercices
         
@@ -296,21 +296,139 @@ Accueil
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/htmlcss/'>HTML & CSS</a> > <a href='/htmlcss/emmet/'>Emmet</a> > Exercices
+          
+         
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
 
         
         <div id="body-inner">
           
+            <h1>Exercices</h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
-</span>
 
- 
-<p>Discover what this Hugo theme is all about and the core-concepts behind it.</p>
-	
+<p>Using the official Emmet <a href="https://docs.emmet.io/">documentation</a> and (especially) <a href="https://docs.emmet.io/cheat-sheet/">cheatsheet</a>, do the following tasks:</p>
+
+<ol>
+<li><p>Make a list menu with 12 links (“#”), with link text that increments by one with each link. For example link01, link02, link03.
+<span class="blocreponse">
+<input type="checkbox" id=" rep1" />
+<label for=" rep1" onclick>Réponse</label>
+<span class="reponse">
   
+ul>(li>a[href="#"]{link$$})*12
+
+</span>
+</span></p></li>
+
+<li><p>Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome.
+<span class="blocreponse">
+<input type="checkbox" id=" rep2" />
+<label for=" rep2" onclick>Réponse</label>
+<span class="reponse">
+  
+ul>(li>a[href=”#”]>span.fa.fa-+{link$$})*12
+
+</span>
+</span></p></li>
+
+<li><p>Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome and with the visuallyhidden class.
+<span class="blocreponse">
+<input type="checkbox" id=" rep3" />
+<label for=" rep3" onclick>Réponse</label>
+<span class="reponse">
+  
+ul>(li>a[href=”#”]>span.fa.fa-+span.visuallyhidden>{link$$})*12
+
+</span>
+</span></p></li>
+
+<li><p>Make three rows of DIVs with classes of clearfix and row. Each row will have 4 articles inside. Each article will have an h1 with 3 words of lorem ipsum, an h2 with 2 words of lorem ipsum, and a p with 17 words of lorem ipsum.
+<span class="blocreponse">
+<input type="checkbox" id=" rep4" />
+<label for=" rep4" onclick>Réponse</label>
+<span class="reponse">
+  
+(div.clearfix.row.row$>
+(article>h1>lorem3^h2>lorem2^p>lorem17)*3)*4
+
+</span>
+</span></p></li>
+
+<li><p>Make a table with :</p>
+
+<ul>
+<li>a caption that says “Bus Schedule”</li>
+<li>one header row with three cells</li>
+<li>four rows with three cells
+<span class="blocreponse">
+<input type="checkbox" id=" rep5" />
+<label for=" rep5" onclick>Réponse</label>
+<span class="reponse">
+  
+table>caption{Bus Schedule}+(tr>td*3)*4(header>nav.menu-main>ul>(li>a[href=”#”]{link$$})*12)+((div.clearfix.row.row$>(article>h1>lorem3^h2>lorem2^p>lorem17)*3)*4)+(table>caption{Bus Schedule}+(tr>td*3)*4)
+
+</span>
+</span></li>
+</ul></li>
+</ol>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
         
         </div> 
         
@@ -342,8 +460,6 @@ Accueil
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -360,6 +476,7 @@ Accueil
             
                 
                     
+                    
                 
                 
 
@@ -372,6 +489,9 @@ Accueil
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -405,6 +525,7 @@ Accueil
             
                 
                     
+                    
                 
                 
 
@@ -421,24 +542,8 @@ Accueil
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -447,6 +552,9 @@ Accueil
                     
                     
 
+                    
+            
+        
                     
             
         
@@ -483,6 +591,22 @@ Accueil
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -493,8 +617,10 @@ Accueil
 
 
         
+            <a class="nav nav-prev" href="/htmlcss/emmet/installation/" title="Installation"> <i class="fa fa-chevron-left"></i></a>
         
-            <a class="nav nav-next" href="/htmlcss/" title="HTML &amp; CSS" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+            <a class="nav nav-next" href="/htmlcss/emmet/test/" title="test" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -524,3 +650,4 @@ Accueil
 
   </body>
 </html>
+

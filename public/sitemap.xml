@@ -3,6 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/htmlcss/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/emmet/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/emmet/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/emmet/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/utilitaires/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/suite/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/emmet/exercices/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/emmet/test/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/</loc>
   </url>
   

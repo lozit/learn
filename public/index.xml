@@ -1,14 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Apprendre HTML et CSS</title>
     <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Apprendre HTML et CSS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Installation</title>
+      <link>http://example.org/htmlcss/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/installation/</guid>
+      <description> The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.
+Create your project Hugo provides a new command to create a new website.
+hugo new site &amp;lt;new_project&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://example.org/htmlcss/emmet/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/emmet/introduction/</guid>
+      <description> Emmet permet d&amp;rsquo;écrire du code html et css de façon simple et rapide.
+Vous pouvez commencer par aller voir le site officiel : emmet.io.
+Une vidéo vaut mieux qu&amp;rsquo;un long discours Hugo provides a new command to create a new website.
+</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>http://example.org/htmlcss/emmet/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/emmet/installation/</guid>
+      <description> The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.
+Create your project Hugo provides a new command to create a new website.
+hugo new site &amp;lt;new_project&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>suite</title>
+      <link>http://example.org/htmlcss/suite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/suite/</guid>
+      <description> The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.
+Create your project Hugo provides a new command to create a new website.
+hugo new site &amp;lt;new_project&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://example.org/htmlcss/emmet/exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/emmet/exercices/</guid>
+      <description>Using the official Emmet documentation and (especially) cheatsheet, do the following tasks:
+ Make a list menu with 12 links (“#”), with link text that increments by one with each link. For example link01, link02, link03. Réponseul(lia[href=&#34;#&#34;]{link$$})*12
+ Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome. Réponseul(lia[href=”#”]span.fa.fa-+{link$$})*12
+ Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome and with the visuallyhidden class.</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>http://example.org/htmlcss/emmet/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/emmet/test/</guid>
+      <description>The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.
+Create your project Hugo provides a new command to create a new website.
+hugo new site &amp;lt;new_project&amp;gt;  Emmet permet d&amp;rsquo;écrire du code html et css de façon simple et rapide.
+Vous pouvez commencer par aller voir le site officiel : emmet.</description>
+    </item>
     
   </channel>
 </rss>

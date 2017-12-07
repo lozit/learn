@@ -1,10 +1,73 @@
 [
 {
+	"uri": "http://example.org/htmlcss/",
+	"title": "HTML &amp; CSS",
+	"tags": [],
+	"description": "",
+	"content": " HTML \u0026amp; CSS Learn to Code HTML \u0026amp; CSS is a simple and comprehensive guide dedicated to helping beginners learn HTML and CSS. Outlining the fundamentals, this guide works through all common elements of front-end design and development.\n"
+},
+{
+	"uri": "http://example.org/htmlcss/emmet/",
+	"title": "Emmet",
+	"tags": [],
+	"description": "",
+	"content": " Chapitre X Emmet Emmet est un module pour la plupart des éditeurs de texte modernes permettant d\u0026rsquo;écrire du code HTML \u0026amp; CSS plus facilement.\n"
+},
+{
+	"uri": "http://example.org/htmlcss/installation/",
+	"title": "Installation",
+	"tags": [],
+	"description": "",
+	"content": " The following steps are here to help you initialize your new website. If you don\u0026rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\nCreate your project Hugo provides a new command to create a new website.\nhugo new site \u0026lt;new_project\u0026gt;  "
+},
+{
+	"uri": "http://example.org/htmlcss/emmet/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": " Emmet permet d\u0026rsquo;écrire du code html et css de façon simple et rapide.\nVous pouvez commencer par aller voir le site officiel : emmet.io.\nUne vidéo vaut mieux qu\u0026rsquo;un long discours Hugo provides a new command to create a new website.\n\r\r\r"
+},
+{
+	"uri": "http://example.org/htmlcss/emmet/installation/",
+	"title": "Installation",
+	"tags": [],
+	"description": "",
+	"content": " The following steps are here to help you initialize your new website. If you don\u0026rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\nCreate your project Hugo provides a new command to create a new website.\nhugo new site \u0026lt;new_project\u0026gt;  "
+},
+{
+	"uri": "http://example.org/htmlcss/utilitaires/",
+	"title": "Utilitaires",
+	"tags": [],
+	"description": "",
+	"content": " Chapitre 2 Démarrage Découvrez comment utiliser ce thème Hugo et apprenez en les concepts !!!\n"
+},
+{
+	"uri": "http://example.org/htmlcss/suite/",
+	"title": "suite",
+	"tags": [],
+	"description": "",
+	"content": " The following steps are here to help you initialize your new website. If you don\u0026rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\nCreate your project Hugo provides a new command to create a new website.\nhugo new site \u0026lt;new_project\u0026gt;  "
+},
+{
+	"uri": "http://example.org/htmlcss/emmet/exercices/",
+	"title": "Exercices",
+	"tags": [],
+	"description": "",
+	"content": "Using the official Emmet documentation and (especially) cheatsheet, do the following tasks:\n Make a list menu with 12 links (“#”), with link text that increments by one with each link. For example link01, link02, link03. Réponse\rul(lia[href=\"#\"]{link$$})*12\r\r\n Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome. Réponse\rul(lia[href=”#”]span.fa.fa-+{link$$})*12\r\r\n Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome and with the visuallyhidden class. Réponse\rul(lia[href=”#”]span.fa.fa-+span.visuallyhidden{link$$})*12\r\r\n Make three rows of DIVs with classes of clearfix and row. Each row will have 4 articles inside. Each article will have an h1 with 3 words of lorem ipsum, an h2 with 2 words of lorem ipsum, and a p with 17 words of lorem ipsum. Réponse\r(div.clearfix.row.row$\r(articleh1lorem3^h2lorem2^plorem17)*3)*4\r\r\n Make a table with :\n a caption that says “Bus Schedule” one header row with three cells four rows with three cells Réponse\rtablecaption{Bus Schedule}+(trtd*3)*4(headernav.menu-mainul(lia[href=”#”]{link$$})*12)+((div.clearfix.row.row$(articleh1lorem3^h2lorem2^plorem17)*3)*4)+(tablecaption{Bus Schedule}+(trtd*3)*4)\r\r   "
+},
+{
+	"uri": "http://example.org/htmlcss/emmet/test/",
+	"title": "test",
+	"tags": [],
+	"description": "",
+	"content": " The following steps are here to help you initialize your new website. If you don\u0026rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\nCreate your project Hugo provides a new command to create a new website.\nhugo new site \u0026lt;new_project\u0026gt;  Emmet permet d\u0026rsquo;écrire du code html et css de façon simple et rapide.\nVous pouvez commencer par aller voir le site officiel : emmet.io.\nUne vidéo vaut mieux qu\u0026rsquo;un long discours Hugo provides a new command to create a new website.\nhugo new site \u0026lt;new_project\u0026gt;  \r\r\rMake a list menu with 12 links (“#”), with link text that increments by one with each link. For example link01, link02, link03.\nRéponse\rul\u0026gt;(li\u0026gt;a[href=\u0026quot;#\u0026quot;]{link$$})*12  \r "
+},
+{
 	"uri": "http://example.org/",
 	"title": "",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": "Discover what this Hugo theme is all about and the core-concepts behind it.\n"
 },
 {
 	"uri": "http://example.org/categories/",
