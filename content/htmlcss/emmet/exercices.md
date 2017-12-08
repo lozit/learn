@@ -12,28 +12,27 @@ En utilisant la [documentation officielle d'Emmet](https://docs.emmet.io/) et en
 ul>(li>a[href="#"]{lien$$})*12
 {{< /hiddentext >}}
 
-2. Faites une liste de menu de 12 liens. Chaque lien doit être contenu dans un span contenant les classes necessaires pour [Font Awesome](http://fontawesome.io) :  class="fa fa-"
+2. Enrichissez la liste précédente : chaque lien doit aussi contenir une balise span avec les classes necessaires pour [Font Awesome](http://fontawesome.io) :  class="fa fa-"
 {{< hiddentext rep2 html >}}
 ul>(li>a[href=”#”]>span.fa.fa-+{link$$})*12
 {{< /hiddentext >}}
 
-3. Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome and with the visuallyhidden class.
+3. Enrichissez la liste précédente : chaque lien doit être contenu dans une nouvelle class "visuallyhidden".
 {{< hiddentext rep3 html >}}
 ul>(li>a[href=”#”]>span.fa.fa-+span.visuallyhidden>{link$$})*12
 {{< /hiddentext >}}
 
-4. Make three rows of DIVs with classes of clearfix and row. Each row will have 4 articles inside. Each article will have an h1 with 3 words of lorem ipsum, an h2 with 2 words of lorem ipsum, and a p with 17 words of lorem ipsum.
+4. Faites trois div à la suite avec comme class "clearfix" et "row". Chaque div doit contenir 4 articles. Chaque article doit avoir un h1 avec 3 mots de lorem ipsum, un h2 avec deux mots de lorem ipsum et un p avec 17 motes de lorem ipsum.
 {{< hiddentext rep4 html >}}
-(div.clearfix.row.row$>
-(article>h1>lorem3^h2>lorem2^p>lorem17)*3)*4
+(div.clearfix.row.row$>(article>h1>lorem3^h2>lorem2^p>lorem17)*4)*3
 {{< /hiddentext >}}
 
-5. Make a table with :
-   - a caption that says “Bus Schedule”
-   - one header row with three cells
-   - four rows with three cells
+5. Faites une table avec :
+    - une légende qui dit "Horaire de bus"
+    - un en-tête avec trois colonnes
+    - quatre lignes avec trois colonnes
 {{< hiddentext rep5 html >}}
-table>caption{Bus Schedule}+(tr>td*3)*4(header>nav.menu-main>ul>(li>a[href=”#”]{link$$})*12)+((div.clearfix.row.row$>(article>h1>lorem3^h2>lorem2^p>lorem17)*3)*4)+(table>caption{Bus Schedule}+(tr>td*3)*4)
+table>caption{Bus Schedule}+(tr>td*3)*4
 {{< /hiddentext >}}
 
 {{< emmet html >}}
