@@ -214,14 +214,14 @@ jQuery(document).ready(function() {
     });
 
     // allow keyboard control for prev/next links
-    jQuery(function() {
-        jQuery('.nav-prev').click(function(){
-            location.href = jQuery(this).attr('href');
-        });
-        jQuery('.nav-next').click(function() {
-            location.href = jQuery(this).attr('href');
-        });
-    });
+    //jQuery(function() {
+    //    jQuery('.nav-prev').click(function(){
+    //        location.href = jQuery(this).attr('href');
+    //    });
+    //    jQuery('.nav-next').click(function() {
+    //        location.href = jQuery(this).attr('href');
+    //    });
+    //});
 
     jQuery(document).keydown(function(e) {
       // prev links - left arrow key

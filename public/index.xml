@@ -64,7 +64,7 @@ hugo new site &amp;lt;new_project&amp;gt;  </description>
       <description>Article original par Kevin McMillan
 En utilisant la documentation officielle d&amp;rsquo;Emmet et en particulier l&amp;rsquo;Antisèche, réalisez les tâches suivantes :
  Faites une liste de menu de 12 liens (&amp;ldquo;#&amp;rdquo;). Le texte du lien doit s&amp;rsquo;incrémenter pour chaque lien. Par exemple : lien01, lien02, lien03 etc. Réponseul(lia[href=&#34;#&#34;]{lien$$})*12
- Faites une liste de menu de 12 liens. Chaque lien doit être contenu dans un span contenant les classes necessaires pour Font Awesome : class=&amp;ldquo;fa fa-&amp;rdquo; Réponseul(lia[href=”#”]span.</description>
+ Enrichissez la liste précédente : chaque lien doit aussi contenir une balise span avec les classes necessaires pour Font Awesome : class=&amp;ldquo;fa fa-&amp;rdquo; Réponseul(lia[href=”#”]span.</description>
     </item>
     
     <item>

@@ -13,17 +13,17 @@
     <title>Exercices :: Apprendre HTML et CSS</title>
     
     
-    <link href="/css/nucleus.css?1512716710" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1512716710" rel="stylesheet">
-    <link href="/css/hybrid.css?1512716710" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1512716710" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1512716710" rel="stylesheet">
-    <link href="/css/auto-complete.css?1512716710" rel="stylesheet">
-    <link href="/css/theme.css?1512716710" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1512716710" rel="stylesheet">
+    <link href="/css/nucleus.css?1512722160" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1512722160" rel="stylesheet">
+    <link href="/css/hybrid.css?1512722160" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1512722160" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1512722160" rel="stylesheet">
+    <link href="/css/auto-complete.css?1512722160" rel="stylesheet">
+    <link href="/css/theme.css?1512722160" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1512722160" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1512716710"></script>
+    <script src="/js/jquery-2.x.min.js?1512722160"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -33,19 +33,19 @@
     </style>
 
 
-<link href="/codemirror/codemirror.css?1512716710" rel="stylesheet">
-<link href="/codemirror/addon/hint/show-hint.css?1512716710" rel="stylesheet">
-<link href="/codemirror/monokai.css?1512716710" rel="stylesheet">
+<link href="/codemirror/codemirror.css?1512722160" rel="stylesheet">
+<link href="/codemirror/addon/hint/show-hint.css?1512722160" rel="stylesheet">
+<link href="/codemirror/monokai.css?1512722160" rel="stylesheet">
 
-<script src="/codemirror/codemirror.js?1512716710"></script>
-<script src="/codemirror/emmet.js?1512716710"></script>
-<script src="/codemirror/hint/show-hint.js?1512716710"></script>
-<script src="/codemirror/hint/xml-hint.js?1512716710"></script>
-<script src="/codemirror/hint/html-hint.js?1512716710"></script>
-<script src="/codemirror/xml/xml.js?1512716710"></script>
-<script src="/codemirror/javascript/javascript.js?1512716710"></script>
-<script src="/codemirror/css/css.js?1512716710"></script>
-<script src="/codemirror/htmlmixed/htmlmixed.js?1512716710"></script>
+<script src="/codemirror/codemirror.js?1512722160"></script>
+<script src="/codemirror/emmet.js?1512722160"></script>
+<script src="/codemirror/hint/show-hint.js?1512722160"></script>
+<script src="/codemirror/hint/xml-hint.js?1512722160"></script>
+<script src="/codemirror/hint/html-hint.js?1512722160"></script>
+<script src="/codemirror/xml/xml.js?1512722160"></script>
+<script src="/codemirror/javascript/javascript.js?1512722160"></script>
+<script src="/codemirror/css/css.js?1512722160"></script>
+<script src="/codemirror/htmlmixed/htmlmixed.js?1512722160"></script>
 
 
 
@@ -68,14 +68,14 @@ Accueil
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1512716710"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1512716710"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1512722160"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1512722160"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/example.org\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1512716710"></script>
+<script type="text/javascript" src="/js/search.js?1512722160"></script>
 
     
   </div>
@@ -381,8 +381,8 @@ Accueil
 <ol>
 <li><p>Faites une liste de menu de 12 liens (&ldquo;#&rdquo;). Le texte du lien doit s&rsquo;incrémenter pour chaque lien. Par exemple : lien01, lien02, lien03 etc.
 <span class="blocreponse">
-<input type="checkbox" id=" rep1" />
-<label for=" rep1" onclick>Réponse</label>
+<input type="checkbox" id="rep1" />
+<label for="rep1">Réponse</label>
 <span class="reponse">
   
 ul>(li>a[href="#"]{lien$$})*12
@@ -390,10 +390,10 @@ ul>(li>a[href="#"]{lien$$})*12
 </span>
 </span></p></li>
 
-<li><p>Faites une liste de menu de 12 liens. Chaque lien doit être contenu dans un span contenant les classes necessaires pour <a href="http://fontawesome.io">Font Awesome</a> :  class=&ldquo;fa fa-&rdquo;
+<li><p>Enrichissez la liste précédente : chaque lien doit aussi contenir une balise span avec les classes necessaires pour <a href="http://fontawesome.io">Font Awesome</a> :  class=&ldquo;fa fa-&rdquo;
 <span class="blocreponse">
-<input type="checkbox" id=" rep2" />
-<label for=" rep2" onclick>Réponse</label>
+<input type="checkbox" id="rep2" />
+<label for="rep2">Réponse</label>
 <span class="reponse">
   
 ul>(li>a[href=”#”]>span.fa.fa-+{link$$})*12
@@ -401,10 +401,10 @@ ul>(li>a[href=”#”]>span.fa.fa-+{link$$})*12
 </span>
 </span></p></li>
 
-<li><p>Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome and with the visuallyhidden class.
+<li><p>Enrichissez la liste précédente : chaque lien doit être contenu dans une nouvelle class &ldquo;visuallyhidden&rdquo;.
 <span class="blocreponse">
-<input type="checkbox" id=" rep3" />
-<label for=" rep3" onclick>Réponse</label>
+<input type="checkbox" id="rep3" />
+<label for="rep3">Réponse</label>
 <span class="reponse">
   
 ul>(li>a[href=”#”]>span.fa.fa-+span.visuallyhidden>{link$$})*12
@@ -412,30 +412,29 @@ ul>(li>a[href=”#”]>span.fa.fa-+span.visuallyhidden>{link$$})*12
 </span>
 </span></p></li>
 
-<li><p>Make three rows of DIVs with classes of clearfix and row. Each row will have 4 articles inside. Each article will have an h1 with 3 words of lorem ipsum, an h2 with 2 words of lorem ipsum, and a p with 17 words of lorem ipsum.
+<li><p>Faites trois div à la suite avec comme class &ldquo;clearfix&rdquo; et &ldquo;row&rdquo;. Chaque div doit contenir 4 articles. Chaque article doit avoir un h1 avec 3 mots de lorem ipsum, un h2 avec deux mots de lorem ipsum et un p avec 17 motes de lorem ipsum.
 <span class="blocreponse">
-<input type="checkbox" id=" rep4" />
-<label for=" rep4" onclick>Réponse</label>
+<input type="checkbox" id="rep4" />
+<label for="rep4">Réponse</label>
 <span class="reponse">
   
-(div.clearfix.row.row$>
-(article>h1>lorem3^h2>lorem2^p>lorem17)*3)*4
+(div.clearfix.row.row$>(article>h1>lorem3^h2>lorem2^p>lorem17)*4)*3
 
 </span>
 </span></p></li>
 
-<li><p>Make a table with :</p>
+<li><p>Faites une table avec :</p>
 
 <ul>
-<li>a caption that says “Bus Schedule”</li>
-<li>one header row with three cells</li>
-<li>four rows with three cells
+<li>une légende qui dit &ldquo;Horaire de bus&rdquo;</li>
+<li>un en-tête avec trois colonnes</li>
+<li>quatre lignes avec trois colonnes
 <span class="blocreponse">
-<input type="checkbox" id=" rep5" />
-<label for=" rep5" onclick>Réponse</label>
+<input type="checkbox" id="rep5" />
+<label for="rep5">Réponse</label>
 <span class="reponse">
   
-table>caption{Bus Schedule}+(tr>td*3)*4(header>nav.menu-main>ul>(li>a[href=”#”]{link$$})*12)+((div.clearfix.row.row$>(article>h1>lorem3^h2>lorem2^p>lorem17)*3)*4)+(table>caption{Bus Schedule}+(tr>td*3)*4)
+table>caption{Bus Schedule}+(tr>td*3)*4
 
 </span>
 </span></li>
@@ -668,20 +667,20 @@ table>caption{Bus Schedule}+(tr>td*3)*4(header>nav.menu-main>ul>(li>a[href=”#�
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1512716710"></script>
-    <script src="/js/perfect-scrollbar.min.js?1512716710"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1512716710"></script>
-    <script src="/js/jquery.sticky.js?1512716710"></script>
-    <script src="/js/featherlight.min.js?1512716710"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1512716710"></script>
-    <script src="/js/highlight.pack.js?1512716710"></script>
+    <script src="/js/clipboard.min.js?1512722160"></script>
+    <script src="/js/perfect-scrollbar.min.js?1512722160"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1512722160"></script>
+    <script src="/js/jquery.sticky.js?1512722160"></script>
+    <script src="/js/featherlight.min.js?1512722160"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1512722160"></script>
+    <script src="/js/highlight.pack.js?1512722160"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1512716710"></script>
-    <script src="/js/learn.js?1512716710"></script>
-    <script src="/js/hugo-learn.js?1512716710"></script>
+    <script src="/js/modernizr.custom.71422.js?1512722160"></script>
+    <script src="/js/learn.js?1512722160"></script>
+    <script src="/js/hugo-learn.js?1512722160"></script>
 
-    <link href="/mermaid/mermaid.css?1512716710" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1512716710"></script>
+    <link href="/mermaid/mermaid.css?1512722160" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1512722160"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
