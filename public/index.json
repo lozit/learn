@@ -14,39 +14,11 @@
 	"content": " Chapitre X Emmet Emmet est un module pour la plupart des éditeurs de texte modernes permettant d\u0026rsquo;écrire du code HTML \u0026amp; CSS plus facilement.\n"
 },
 {
-	"uri": "http://example.org/htmlcss/installation/",
-	"title": "Installation",
-	"tags": [],
-	"description": "",
-	"content": " The following steps are here to help you initialize your new website. If you don\u0026rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\nCreate your project Hugo provides a new command to create a new website.\nhugo new site \u0026lt;new_project\u0026gt;  "
-},
-{
-	"uri": "http://example.org/htmlcss/emmet/introduction/",
-	"title": "Introduction",
-	"tags": [],
-	"description": "",
-	"content": " Emmet permet d\u0026rsquo;écrire du code html et css de façon simple et rapide.\nVous pouvez commencer par aller voir le site officiel : emmet.io.\nUne vidéo vaut mieux qu\u0026rsquo;un long discours Hugo provides a new command to create a new website.\n\r\r\r"
-},
-{
 	"uri": "http://example.org/htmlcss/emmet/installation/",
 	"title": "Installation",
 	"tags": [],
 	"description": "",
-	"content": " The following steps are here to help you initialize your new website. If you don\u0026rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\nCreate your project Hugo provides a new command to create a new website.\nhugo new site \u0026lt;new_project\u0026gt;  "
-},
-{
-	"uri": "http://example.org/htmlcss/utilitaires/",
-	"title": "Utilitaires",
-	"tags": [],
-	"description": "",
-	"content": " Chapitre 2 Démarrage Découvrez comment utiliser ce thème Hugo et apprenez en les concepts !!!\n"
-},
-{
-	"uri": "http://example.org/htmlcss/suite/",
-	"title": "suite",
-	"tags": [],
-	"description": "",
-	"content": " The following steps are here to help you initialize your new website. If you don\u0026rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\nCreate your project Hugo provides a new command to create a new website.\nhugo new site \u0026lt;new_project\u0026gt;  "
+	"content": " Installation Bracket  Lancer Brackets. Selectionner Fichier \u0026gt; Gestionnaire d\u0026rsquo;extension\u0026hellip; Chercher l\u0026rsquo;extension \u0026ldquo;Emmet\u0026rdquo; et cliquer sur le bouton \u0026ldquo;Installer\u0026rdquo;  Visual studio code  Rien a faire, emmet est déjà installé  Atom  Lancer Atom Ouvrir \u0026ldquo;Preferences\u0026rdquo; Aller à la section \u0026ldquo;installation\u0026rdquo; Chercher le package \u0026ldquo;Emmet\u0026rdquo; et cliquer sur le bouton \u0026ldquo;Installer\u0026rdquo;  Sublime Text  Si ce n\u0026rsquo;est pas fait, installer Package control en allant sur Tools -\u0026gt; Command Palette (Ctrl + Shift + P) -\u0026gt; installer Package control Aller sur Tools -\u0026gt; Command Palette (Ctrl + Shift + P) Taper \u0026ldquo;Package Control: Install Package\u0026rdquo; Taper Emmet dans la fenetre qui s\u0026rsquo;ouvre Cliquer sur Emmet pour l\u0026rsquo;installer  Pour installer emmet sur un autre éditeur de texte, suivez les instructions sur le site officiel.\n"
 },
 {
 	"uri": "http://example.org/htmlcss/emmet/exercices/",
@@ -56,11 +28,18 @@
 	"content": "Article original par Kevin McMillan\nEn utilisant la documentation officielle d\u0026rsquo;Emmet et en particulier l\u0026rsquo;Antisèche, réalisez les tâches suivantes :\n Faites une liste de menu de 12 liens (\u0026ldquo;#\u0026rdquo;). Le texte du lien doit s\u0026rsquo;incrémenter pour chaque lien. Par exemple : lien01, lien02, lien03 etc. Réponse\rul(lia[href=\"#\"]{lien$$})*12\r\r\n Enrichissez la liste précédente : chaque lien doit aussi contenir une balise span avec les classes necessaires pour Font Awesome : class=\u0026ldquo;fa fa-\u0026rdquo; Réponse\rul(lia[href=”#”]span.fa.fa-+{link$$})*12\r\r\n Enrichissez la liste précédente : chaque lien doit être contenu dans une nouvelle class \u0026ldquo;visuallyhidden\u0026rdquo;. Réponse\rul(lia[href=”#”]span.fa.fa-+span.visuallyhidden{link$$})*12\r\r\n Faites trois div à la suite avec comme class \u0026ldquo;clearfix\u0026rdquo; et \u0026ldquo;row\u0026rdquo;. Chaque div doit contenir 4 articles. Chaque article doit avoir un h1 avec 3 mots de lorem ipsum, un h2 avec deux mots de lorem ipsum et un p avec 17 motes de lorem ipsum. Réponse\r(div.clearfix.row.row$(articleh1lorem3^h2lorem2^plorem17)*4)*3\r\r\n Faites une table avec :\n une légende qui dit \u0026ldquo;Horaire de bus\u0026rdquo; un en-tête avec trois colonnes quatre lignes avec trois colonnes Réponse\rtablecaption{Bus Schedule}+(trtd*3)*4\r\r   \r\u0026lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--\u0026gt;\r\rvar editor = CodeMirror.fromTextArea(document.getElementById(\"code\"), {\rmode: \"text/html\",\rprofile: 'xhtml',\rtheme: \"monokai\"\r});\remmetCodeMirror(editor, {\r'Tab': 'emmet.expand_abbreviation_with_tab'\r});\r\r "
 },
 {
-	"uri": "http://example.org/htmlcss/emmet/test/",
-	"title": "test",
+	"uri": "http://example.org/htmlcss/emmet/exercice-site/",
+	"title": "Exercice final",
 	"tags": [],
 	"description": "",
-	"content": " The following steps are here to help you initialize your new website. If you don\u0026rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.\nCreate your project Hugo provides a new command to create a new website.\nhugo new site \u0026lt;new_project\u0026gt;  Emmet permet d\u0026rsquo;écrire du code html et css de façon simple et rapide.\nVous pouvez commencer par aller voir le site officiel : emmet.io.\nUne vidéo vaut mieux qu\u0026rsquo;un long discours Hugo provides a new command to create a new website.\nhugo new site \u0026lt;new_project\u0026gt;  \r\r\rMake a list menu with 12 links (“#”), with link text that increments by one with each link. For example link01, link02, link03.\nRéponse\rul\u0026gt;(li\u0026gt;a[href=\u0026quot;#\u0026quot;]{link$$})*12  \r "
+	"content": "Article original par Kevin McMillan\nDans cet exercice, vous allez utiliser Emmet pour produire l\u0026rsquo;architecture du site suivant.\nPour les images, utilisez le service lorempixel.com et pour le texte, la fonctionnalité d\u0026rsquo;Emmet \u0026ldquo;Lorem\u0026rdquo;.\nL\u0026rsquo;objectif est de produire la structure du site. Ne vous souciez pas de l\u0026rsquo;apparence mais plutôt de la sémantique de votre code.\nVous devez créer le code en une seule équation Emmet.\nNéanmoins, vous pouvez travailler morçeau par morçeau en utilisant tab pour générer votre code, puis command/control+z pour revenir à votre équation.\n\r\u0026lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--\u0026gt;\r\rvar editor = CodeMirror.fromTextArea(document.getElementById(\"code\"), {\rmode: \"text/html\",\rprofile: 'xhtml',\rtheme: \"monokai\"\r});\remmetCodeMirror(editor, {\r'Tab': 'emmet.expand_abbreviation_with_tab'\r});\r\r "
+},
+{
+	"uri": "http://example.org/htmlcss/emmet/validation/",
+	"title": "Validation",
+	"tags": [],
+	"description": "",
+	"content": "Pour finir cette série sur Emmet, vous devez répondre à ce Quizz Emmet\nBonne chance !\n\r\u0026lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--\u0026gt;\r\rvar editor = CodeMirror.fromTextArea(document.getElementById(\"code\"), {\rmode: \"text/html\",\rprofile: 'xhtml',\rtheme: \"monokai\"\r});\remmetCodeMirror(editor, {\r'Tab': 'emmet.expand_abbreviation_with_tab'\r});\r\r "
 },
 {
 	"uri": "http://example.org/",

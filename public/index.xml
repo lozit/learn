@@ -12,47 +12,11 @@
     
     <item>
       <title>Installation</title>
-      <link>http://example.org/htmlcss/installation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/htmlcss/installation/</guid>
-      <description> The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.
-Create your project Hugo provides a new command to create a new website.
-hugo new site &amp;lt;new_project&amp;gt;  </description>
-    </item>
-    
-    <item>
-      <title>Introduction</title>
-      <link>http://example.org/htmlcss/emmet/introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/htmlcss/emmet/introduction/</guid>
-      <description> Emmet permet d&amp;rsquo;écrire du code html et css de façon simple et rapide.
-Vous pouvez commencer par aller voir le site officiel : emmet.io.
-Une vidéo vaut mieux qu&amp;rsquo;un long discours Hugo provides a new command to create a new website.
-</description>
-    </item>
-    
-    <item>
-      <title>Installation</title>
       <link>http://example.org/htmlcss/emmet/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/htmlcss/emmet/installation/</guid>
-      <description> The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.
-Create your project Hugo provides a new command to create a new website.
-hugo new site &amp;lt;new_project&amp;gt;  </description>
-    </item>
-    
-    <item>
-      <title>suite</title>
-      <link>http://example.org/htmlcss/suite/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/htmlcss/suite/</guid>
-      <description> The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.
-Create your project Hugo provides a new command to create a new website.
-hugo new site &amp;lt;new_project&amp;gt;  </description>
+      <description>Installation Bracket  Lancer Brackets. Selectionner Fichier &amp;gt; Gestionnaire d&amp;rsquo;extension&amp;hellip; Chercher l&amp;rsquo;extension &amp;ldquo;Emmet&amp;rdquo; et cliquer sur le bouton &amp;ldquo;Installer&amp;rdquo;  Visual studio code  Rien a faire, emmet est déjà installé  Atom  Lancer Atom Ouvrir &amp;ldquo;Preferences&amp;rdquo; Aller à la section &amp;ldquo;installation&amp;rdquo; Chercher le package &amp;ldquo;Emmet&amp;rdquo; et cliquer sur le bouton &amp;ldquo;Installer&amp;rdquo;  Sublime Text  Si ce n&amp;rsquo;est pas fait, installer Package control en allant sur Tools -&amp;gt; Command Palette (Ctrl + Shift + P) -&amp;gt; installer Package control Aller sur Tools -&amp;gt; Command Palette (Ctrl + Shift + P) Taper &amp;ldquo;Package Control: Install Package&amp;rdquo; Taper Emmet dans la fenetre qui s&amp;rsquo;ouvre Cliquer sur Emmet pour l&amp;rsquo;installer  Pour installer emmet sur un autre éditeur de texte, suivez les instructions sur le site officiel.</description>
     </item>
     
     <item>
@@ -68,15 +32,28 @@ En utilisant la documentation officielle d&amp;rsquo;Emmet et en particulier l&a
     </item>
     
     <item>
-      <title>test</title>
-      <link>http://example.org/htmlcss/emmet/test/</link>
+      <title>Exercice final</title>
+      <link>http://example.org/htmlcss/emmet/exercice-site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/htmlcss/emmet/test/</guid>
-      <description>The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.
-Create your project Hugo provides a new command to create a new website.
-hugo new site &amp;lt;new_project&amp;gt;  Emmet permet d&amp;rsquo;écrire du code html et css de façon simple et rapide.
-Vous pouvez commencer par aller voir le site officiel : emmet.</description>
+      <guid>http://example.org/htmlcss/emmet/exercice-site/</guid>
+      <description>Article original par Kevin McMillan
+Dans cet exercice, vous allez utiliser Emmet pour produire l&amp;rsquo;architecture du site suivant.
+Pour les images, utilisez le service lorempixel.com et pour le texte, la fonctionnalité d&amp;rsquo;Emmet &amp;ldquo;Lorem&amp;rdquo;.
+L&amp;rsquo;objectif est de produire la structure du site. Ne vous souciez pas de l&amp;rsquo;apparence mais plutôt de la sémantique de votre code.
+Vous devez créer le code en une seule équation Emmet.
+Néanmoins, vous pouvez travailler morçeau par morçeau en utilisant tab pour générer votre code, puis command/control+z pour revenir à votre équation.</description>
+    </item>
+    
+    <item>
+      <title>Validation</title>
+      <link>http://example.org/htmlcss/emmet/validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/emmet/validation/</guid>
+      <description>Pour finir cette série sur Emmet, vous devez répondre à ce Quizz Emmet
+Bonne chance !
+&amp;lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--&amp;gt;var editor = CodeMirror.fromTextArea(document.getElementById(&#34;code&#34;), {mode: &#34;text/html&#34;,profile: &#39;xhtml&#39;,theme: &#34;monokai&#34;});emmetCodeMirror(editor, {&#39;Tab&#39;: &#39;emmet.expand_abbreviation_with_tab&#39;}); </description>
     </item>
     
   </channel>

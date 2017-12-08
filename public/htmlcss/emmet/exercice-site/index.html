@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>Installation :: Apprendre HTML et CSS</title>
+    <title>Exercice final :: Apprendre HTML et CSS</title>
     
     
     <link href="/css/nucleus.css?1512729018" rel="stylesheet">
@@ -50,7 +50,7 @@
 
 
   </head>
-  <body class="" data-url="/htmlcss/emmet/installation/">
+  <body class="" data-url="/htmlcss/emmet/exercice-site/">
     <nav id="sidebar" class="">
 
 
@@ -143,7 +143,7 @@ Accueil
  
   
     
-      <li data-nav-id="/htmlcss/emmet/installation/" title="Installation" class="dd-item active">
+      <li data-nav-id="/htmlcss/emmet/installation/" title="Installation" class="dd-item ">
         <a href="/htmlcss/emmet/installation/">
         Installation
         
@@ -181,7 +181,7 @@ Accueil
  
   
     
-      <li data-nav-id="/htmlcss/emmet/exercice-site/" title="Exercice final" class="dd-item ">
+      <li data-nav-id="/htmlcss/emmet/exercice-site/" title="Exercice final" class="dd-item active">
         <a href="/htmlcss/emmet/exercice-site/">
         Exercice final
         
@@ -280,7 +280,7 @@ Accueil
             
           
           
-            <a href='/'></a> > <a href='/htmlcss/'>HTML & CSS</a> > <a href='/htmlcss/emmet/'>Emmet</a> > Installation
+            <a href='/'></a> > <a href='/htmlcss/'>HTML & CSS</a> > <a href='/htmlcss/emmet/'>Emmet</a> > Exercice final
           
          
           
@@ -294,20 +294,7 @@ Accueil
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#installation">Installation</a>
-<ul>
-<li><a href="#bracket">Bracket</a></li>
-<li><a href="#visual-studio-code">Visual studio code</a></li>
-<li><a href="#atom">Atom</a></li>
-<li><a href="#sublime-text">Sublime Text</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
+
     </div>
 </div>
 
@@ -319,50 +306,45 @@ Accueil
         
         <div id="body-inner">
           
-            <h1>Installation</h1>
+            <h1>Exercice final</h1>
           
 
         
 
 
+<p><a href="http://wrmf.ca/posts/emmet-lab-exercise-2/">Article original</a> par <a href="http://wrmf.ca/">Kevin McMillan</a></p>
+
+<p>Dans cet exercice, vous allez utiliser Emmet pour produire l&rsquo;architecture du site suivant.</p>
+
+<p>Pour les images, utilisez le service <a href="http://lorempixel.com">lorempixel.com</a> et pour le texte, la fonctionnalité d&rsquo;Emmet &ldquo;Lorem&rdquo;.</p>
+
+<p>L&rsquo;objectif est de produire la structure du site. Ne vous souciez pas de l&rsquo;apparence mais plutôt de la sémantique de votre code.</p>
+
+<p>Vous devez créer le code en une seule équation Emmet.</p>
+
+<p>Néanmoins, vous pouvez travailler morçeau par morçeau en utilisant tab pour générer votre code, puis command/control+z pour revenir à votre équation.</p>
+
+<p><img src="/images/DTN-Mag-Layout-Screenshot.png" alt="Screenshot de site pour l'exercice" /></p>
+
+<article>
+<form><textarea id="code" name="code">
+
+&lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--&gt;
 
 
-<h2 id="installation">Installation</h2>
-
-<h3 id="bracket">Bracket</h3>
-
-<ul>
-<li>Lancer Brackets.</li>
-<li>Selectionner Fichier &gt; Gestionnaire d&rsquo;extension&hellip;</li>
-<li>Chercher l&rsquo;extension &ldquo;Emmet&rdquo; et cliquer sur le bouton &ldquo;Installer&rdquo;</li>
-</ul>
-
-<h3 id="visual-studio-code">Visual studio code</h3>
-
-<ul>
-<li>Rien a faire, emmet est déjà installé</li>
-</ul>
-
-<h3 id="atom">Atom</h3>
-
-<ul>
-<li>Lancer Atom</li>
-<li>Ouvrir &ldquo;Preferences&rdquo;</li>
-<li>Aller à la section &ldquo;installation&rdquo;</li>
-<li>Chercher le package &ldquo;Emmet&rdquo; et cliquer sur le bouton &ldquo;Installer&rdquo;</li>
-</ul>
-
-<h3 id="sublime-text">Sublime Text</h3>
-
-<ul>
-<li>Si ce n&rsquo;est pas fait, installer Package control en allant sur Tools -&gt; Command Palette (Ctrl + Shift + P) -&gt; installer Package control</li>
-<li>Aller sur Tools -&gt; Command Palette (Ctrl + Shift + P)</li>
-<li>Taper &ldquo;Package Control: Install Package&rdquo;</li>
-<li>Taper Emmet dans la fenetre qui s&rsquo;ouvre</li>
-<li>Cliquer sur Emmet pour l&rsquo;installer</li>
-</ul>
-
-<p>Pour installer emmet sur un autre éditeur de texte, suivez les <a href="https://emmet.io/download/">instructions sur le site officiel</a>.</p>
+</textarea></form>
+    
+<script type="text/javascript">
+    var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        mode: "text/html",
+        profile: 'xhtml',
+        theme: "monokai"
+    });
+    emmetCodeMirror(editor, {
+        'Tab': 'emmet.expand_abbreviation_with_tab'
+    });
+</script>
+</article>
 
 
 <footer class=" footline" >
@@ -431,23 +413,6 @@ Accueil
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                         
                         
                     
@@ -483,6 +448,26 @@ Accueil
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -507,10 +492,10 @@ Accueil
 
 
         
-            <a class="nav nav-prev" href="/htmlcss/emmet/" title="Emmet"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/htmlcss/emmet/exercices/" title="Exercices"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/htmlcss/emmet/exercices/" title="Exercices" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/htmlcss/emmet/validation/" title="Validation" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
