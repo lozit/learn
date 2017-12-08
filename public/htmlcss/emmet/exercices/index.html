@@ -13,17 +13,17 @@
     <title>Exercices :: Apprendre HTML et CSS</title>
     
     
-    <link href="/css/nucleus.css?1512632994" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1512632994" rel="stylesheet">
-    <link href="/css/hybrid.css?1512632994" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1512632994" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1512632994" rel="stylesheet">
-    <link href="/css/auto-complete.css?1512632994" rel="stylesheet">
-    <link href="/css/theme.css?1512632994" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1512632994" rel="stylesheet">
+    <link href="/css/nucleus.css?1512716710" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1512716710" rel="stylesheet">
+    <link href="/css/hybrid.css?1512716710" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1512716710" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1512716710" rel="stylesheet">
+    <link href="/css/auto-complete.css?1512716710" rel="stylesheet">
+    <link href="/css/theme.css?1512716710" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1512716710" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1512632994"></script>
+    <script src="/js/jquery-2.x.min.js?1512716710"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -31,7 +31,24 @@
       }
       
     </style>
-    
+
+
+<link href="/codemirror/codemirror.css?1512716710" rel="stylesheet">
+<link href="/codemirror/addon/hint/show-hint.css?1512716710" rel="stylesheet">
+<link href="/codemirror/monokai.css?1512716710" rel="stylesheet">
+
+<script src="/codemirror/codemirror.js?1512716710"></script>
+<script src="/codemirror/emmet.js?1512716710"></script>
+<script src="/codemirror/hint/show-hint.js?1512716710"></script>
+<script src="/codemirror/hint/xml-hint.js?1512716710"></script>
+<script src="/codemirror/hint/html-hint.js?1512716710"></script>
+<script src="/codemirror/xml/xml.js?1512716710"></script>
+<script src="/codemirror/javascript/javascript.js?1512716710"></script>
+<script src="/codemirror/css/css.js?1512716710"></script>
+<script src="/codemirror/htmlmixed/htmlmixed.js?1512716710"></script>
+
+
+
   </head>
   <body class="" data-url="/htmlcss/emmet/exercices/">
     <nav id="sidebar" class="">
@@ -51,14 +68,14 @@ Accueil
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1512632994"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1512632994"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1512716710"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1512716710"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/example.org\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1512632994"></script>
+<script type="text/javascript" src="/js/search.js?1512716710"></script>
 
     
   </div>
@@ -357,21 +374,23 @@ Accueil
         
 
 
-<p>Using the official Emmet <a href="https://docs.emmet.io/">documentation</a> and (especially) <a href="https://docs.emmet.io/cheat-sheet/">cheatsheet</a>, do the following tasks:</p>
+<p><a href="http://wrmf.ca/posts/emmet-lab-exercise/">Article original</a> par <a href="http://wrmf.ca/">Kevin McMillan</a></p>
+
+<p>En utilisant la <a href="https://docs.emmet.io/">documentation officielle d&rsquo;Emmet</a> et en particulier <a href="https://docs.emmet.io/cheat-sheet/">l&rsquo;Antisèche</a>, réalisez les tâches suivantes :</p>
 
 <ol>
-<li><p>Make a list menu with 12 links (“#”), with link text that increments by one with each link. For example link01, link02, link03.
+<li><p>Faites une liste de menu de 12 liens (&ldquo;#&rdquo;). Le texte du lien doit s&rsquo;incrémenter pour chaque lien. Par exemple : lien01, lien02, lien03 etc.
 <span class="blocreponse">
 <input type="checkbox" id=" rep1" />
 <label for=" rep1" onclick>Réponse</label>
 <span class="reponse">
   
-ul>(li>a[href="#"]{link$$})*12
+ul>(li>a[href="#"]{lien$$})*12
 
 </span>
 </span></p></li>
 
-<li><p>Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome.
+<li><p>Faites une liste de menu de 12 liens. Chaque lien doit être contenu dans un span contenant les classes necessaires pour <a href="http://fontawesome.io">Font Awesome</a> :  class=&ldquo;fa fa-&rdquo;
 <span class="blocreponse">
 <input type="checkbox" id=" rep2" />
 <label for=" rep2" onclick>Réponse</label>
@@ -422,6 +441,26 @@ table>caption{Bus Schedule}+(tr>td*3)*4(header>nav.menu-main>ul>(li>a[href=”#�
 </span></li>
 </ul></li>
 </ol>
+
+<article>
+<form><textarea id="code" name="code">
+
+&lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--&gt;
+
+
+</textarea></form>
+    
+<script type="text/javascript">
+    var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        mode: "text/html",
+        profile: 'xhtml',
+        theme: "monokai"
+    });
+    emmetCodeMirror(editor, {
+        'Tab': 'emmet.expand_abbreviation_with_tab'
+    });
+</script>
+</article>
 
 
 <footer class=" footline" >
@@ -629,20 +668,20 @@ table>caption{Bus Schedule}+(tr>td*3)*4(header>nav.menu-main>ul>(li>a[href=”#�
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1512632994"></script>
-    <script src="/js/perfect-scrollbar.min.js?1512632994"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1512632994"></script>
-    <script src="/js/jquery.sticky.js?1512632994"></script>
-    <script src="/js/featherlight.min.js?1512632994"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1512632994"></script>
-    <script src="/js/highlight.pack.js?1512632994"></script>
+    <script src="/js/clipboard.min.js?1512716710"></script>
+    <script src="/js/perfect-scrollbar.min.js?1512716710"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1512716710"></script>
+    <script src="/js/jquery.sticky.js?1512716710"></script>
+    <script src="/js/featherlight.min.js?1512716710"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1512716710"></script>
+    <script src="/js/highlight.pack.js?1512716710"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1512632994"></script>
-    <script src="/js/learn.js?1512632994"></script>
-    <script src="/js/hugo-learn.js?1512632994"></script>
+    <script src="/js/modernizr.custom.71422.js?1512716710"></script>
+    <script src="/js/learn.js?1512716710"></script>
+    <script src="/js/hugo-learn.js?1512716710"></script>
 
-    <link href="/mermaid/mermaid.css?1512632994" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1512632994"></script>
+    <link href="/mermaid/mermaid.css?1512716710" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1512716710"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

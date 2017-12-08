@@ -53,7 +53,7 @@
 	"title": "Exercices",
 	"tags": [],
 	"description": "",
-	"content": "Using the official Emmet documentation and (especially) cheatsheet, do the following tasks:\n Make a list menu with 12 links (“#”), with link text that increments by one with each link. For example link01, link02, link03. Réponse\rul(lia[href=\"#\"]{link$$})*12\r\r\n Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome. Réponse\rul(lia[href=”#”]span.fa.fa-+{link$$})*12\r\r\n Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome and with the visuallyhidden class. Réponse\rul(lia[href=”#”]span.fa.fa-+span.visuallyhidden{link$$})*12\r\r\n Make three rows of DIVs with classes of clearfix and row. Each row will have 4 articles inside. Each article will have an h1 with 3 words of lorem ipsum, an h2 with 2 words of lorem ipsum, and a p with 17 words of lorem ipsum. Réponse\r(div.clearfix.row.row$\r(articleh1lorem3^h2lorem2^plorem17)*3)*4\r\r\n Make a table with :\n a caption that says “Bus Schedule” one header row with three cells four rows with three cells Réponse\rtablecaption{Bus Schedule}+(trtd*3)*4(headernav.menu-mainul(lia[href=”#”]{link$$})*12)+((div.clearfix.row.row$(articleh1lorem3^h2lorem2^plorem17)*3)*4)+(tablecaption{Bus Schedule}+(trtd*3)*4)\r\r   "
+	"content": "Article original par Kevin McMillan\nEn utilisant la documentation officielle d\u0026rsquo;Emmet et en particulier l\u0026rsquo;Antisèche, réalisez les tâches suivantes :\n Faites une liste de menu de 12 liens (\u0026ldquo;#\u0026rdquo;). Le texte du lien doit s\u0026rsquo;incrémenter pour chaque lien. Par exemple : lien01, lien02, lien03 etc. Réponse\rul(lia[href=\"#\"]{lien$$})*12\r\r\n Faites une liste de menu de 12 liens. Chaque lien doit être contenu dans un span contenant les classes necessaires pour Font Awesome : class=\u0026ldquo;fa fa-\u0026rdquo; Réponse\rul(lia[href=”#”]span.fa.fa-+{link$$})*12\r\r\n Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome and with the visuallyhidden class. Réponse\rul(lia[href=”#”]span.fa.fa-+span.visuallyhidden{link$$})*12\r\r\n Make three rows of DIVs with classes of clearfix and row. Each row will have 4 articles inside. Each article will have an h1 with 3 words of lorem ipsum, an h2 with 2 words of lorem ipsum, and a p with 17 words of lorem ipsum. Réponse\r(div.clearfix.row.row$\r(articleh1lorem3^h2lorem2^plorem17)*3)*4\r\r\n Make a table with :\n a caption that says “Bus Schedule” one header row with three cells four rows with three cells Réponse\rtablecaption{Bus Schedule}+(trtd*3)*4(headernav.menu-mainul(lia[href=”#”]{link$$})*12)+((div.clearfix.row.row$(articleh1lorem3^h2lorem2^plorem17)*3)*4)+(tablecaption{Bus Schedule}+(trtd*3)*4)\r\r   \r\u0026lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--\u0026gt;\r\rvar editor = CodeMirror.fromTextArea(document.getElementById(\"code\"), {\rmode: \"text/html\",\rprofile: 'xhtml',\rtheme: \"monokai\"\r});\remmetCodeMirror(editor, {\r'Tab': 'emmet.expand_abbreviation_with_tab'\r});\r\r "
 },
 {
 	"uri": "http://example.org/htmlcss/emmet/test/",
@@ -67,7 +67,7 @@
 	"title": "",
 	"tags": [],
 	"description": "",
-	"content": "Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": " Bienvenue Ce site me sert de fourre-tout : vous y trouverez des cours et des ressources sur le design web.\nUn mélange de production personnelle, de liens utiles et de traductions d\u0026rsquo;articles.\n"
 },
 {
 	"uri": "http://example.org/categories/",

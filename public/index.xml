@@ -61,10 +61,10 @@ hugo new site &amp;lt;new_project&amp;gt;  </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/htmlcss/emmet/exercices/</guid>
-      <description>Using the official Emmet documentation and (especially) cheatsheet, do the following tasks:
- Make a list menu with 12 links (“#”), with link text that increments by one with each link. For example link01, link02, link03. Réponseul(lia[href=&#34;#&#34;]{link$$})*12
- Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome. Réponseul(lia[href=”#”]span.fa.fa-+{link$$})*12
- Make a list menu with with 12 links, but “prewired” with spans and classes for Font Awesome and with the visuallyhidden class.</description>
+      <description>Article original par Kevin McMillan
+En utilisant la documentation officielle d&amp;rsquo;Emmet et en particulier l&amp;rsquo;Antisèche, réalisez les tâches suivantes :
+ Faites une liste de menu de 12 liens (&amp;ldquo;#&amp;rdquo;). Le texte du lien doit s&amp;rsquo;incrémenter pour chaque lien. Par exemple : lien01, lien02, lien03 etc. Réponseul(lia[href=&#34;#&#34;]{lien$$})*12
+ Faites une liste de menu de 12 liens. Chaque lien doit être contenu dans un span contenant les classes necessaires pour Font Awesome : class=&amp;ldquo;fa fa-&amp;rdquo; Réponseul(lia[href=”#”]span.</description>
     </item>
     
     <item>
