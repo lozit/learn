@@ -1,6 +1,6 @@
 +++
 title = "Emmet"
-weight = 2
+weight = 10
 pre = "<b>X. </b>"
 chapter = true
 +++
