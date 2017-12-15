@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Selecteurs</title>
+      <link>http://example.org/htmlcss/css/selecteurs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/selecteurs/</guid>
+      <description>Pour plus de détail, voir l&amp;rsquo;article suivant : Les 30 Sélecteurs CSS à Absolument Connaître
+   Les&amp;nbsp;sélecteurs      .class Tous les éléments qui ont une .class   #id Tous les éléments qui ont un #id (normalement un seul)   * Tous les éléments   div Toutes les balises div   div p Toutes les balises p à l&amp;rsquo;intérieur d&amp;rsquo;une autre balise div, sans être forcément un enfant direct   div, p Toutes les balises div et toutes les balises p   div &amp;gt; p Toutes les balises p qui sont enfants directs d&amp;rsquo;une balise div   div + p Toutes les balises p placées juste après une div (au même niveau)   div ~ p Selects all &amp;lt;p&amp;gt; elements that follow, and are siblings of, &amp;lt;div&amp;gt; elements    See the Pen div + p by AFPA - Webdesigner (@afpa-designerweb) on CodePen.</description>
+    </item>
+    
+    <item>
       <title>Installation</title>
       <link>http://example.org/htmlcss/emmet/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

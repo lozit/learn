@@ -7,11 +7,18 @@
 	"content": " HTML \u0026amp; CSS Learn to Code HTML \u0026amp; CSS is a simple and comprehensive guide dedicated to helping beginners learn HTML and CSS. Outlining the fundamentals, this guide works through all common elements of front-end design and development.\n"
 },
 {
-	"uri": "http://example.org/htmlcss/emmet/",
-	"title": "Emmet",
+	"uri": "http://example.org/htmlcss/css/",
+	"title": "CSS",
 	"tags": [],
 	"description": "",
-	"content": " Chapitre X Emmet Emmet est un module pour la plupart des éditeurs de texte modernes permettant d\u0026rsquo;écrire du code HTML \u0026amp; CSS plus facilement.\n"
+	"content": " Chapitre 2 CSS Le CSS est le language permettant de mettre en forme du code HTML.\n"
+},
+{
+	"uri": "http://example.org/htmlcss/css/selecteurs/",
+	"title": "Selecteurs",
+	"tags": [],
+	"description": "",
+	"content": "Pour plus de détail, voir l\u0026rsquo;article suivant : Les 30 Sélecteurs CSS à Absolument Connaître\n   Les\u0026nbsp;sélecteurs      .class Tous les éléments qui ont une .class   #id Tous les éléments qui ont un #id (normalement un seul)   * Tous les éléments   div Toutes les balises div   div p Toutes les balises p à l\u0026rsquo;intérieur d\u0026rsquo;une autre balise div, sans être forcément un enfant direct   div, p Toutes les balises div et toutes les balises p   div \u0026gt; p Toutes les balises p qui sont enfants directs d\u0026rsquo;une balise div   div + p Toutes les balises p placées juste après une div (au même niveau)   div ~ p Selects all \u0026lt;p\u0026gt; elements that follow, and are siblings of, \u0026lt;div\u0026gt; elements    See the Pen div + p by AFPA - Webdesigner (@afpa-designerweb) on CodePen.\n\n   Les\u0026nbsp;attributs      [attribute] xxxxxxx   [attribute=value] xxxxxxx   [attribute~=value] xxxxxxx   [attribute|=value] xxxxxxx   [attribute^=value] xxxxxxx   [attribute$=value] xxxxxxx   [attribute*=value] xxxxxxx       Pseudo-classes      a:link xxxxxxx   a:visited xxxxxxx   a:hover xxxxxxx   a:active xxxxxxx   p::after xxxxxxx   p::before xxxxxxx   input:checked xxxxxxx   input:disabled xxxxxxx   p:empty xxxxxxx   input:enabled xxxxxxx   p:first-child xxxxxxx   p::first-letter xxxxxxx   p::first-line xxxxxxx   p:first-of-type xxxxxxx   input:focus xxxxxxx   input:in-range xxxxxxx   input:invalid xxxxxxx   p:lang(language) xxxxxxx   p:last-child xxxxxxx   p:last-of-type xxxxxxx   :not(p) xxxxxxx   p:nth-child(2) xxxxxxx   p:nth-last-child(2) xxxxxxx   p:nth-last-of-type(2) xxxxxxx   p:nth-of-type(2) xxxxxxx   p:only-of-type xxxxxxx   p:only-child xxxxxxx   input:optional xxxxxxx   input:out-of-range xxxxxxx   input:read-only xxxxxxx   input:read-write xxxxxxx   input:required xxxxxxx   :root xxxxxxx   ::selection xxxxxxx   #id:target xxxxxxx   input:valid xxxxxxx    "
 },
 {
 	"uri": "http://example.org/htmlcss/emmet/installation/",
@@ -40,6 +47,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Pour finir cette série sur Emmet, vous devez répondre à ce Quizz Emmet\nBonne chance !\n\r\u0026lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--\u0026gt;\r\rvar editor = CodeMirror.fromTextArea(document.getElementById(\"code\"), {\rmode: \"text/html\",\rprofile: 'xhtml',\rtheme: \"monokai\"\r});\remmetCodeMirror(editor, {\r'Tab': 'emmet.expand_abbreviation_with_tab'\r});\r\r "
+},
+{
+	"uri": "http://example.org/htmlcss/emmet/",
+	"title": "Emmet",
+	"tags": [],
+	"description": "",
+	"content": " Chapitre X Emmet Emmet est un module pour la plupart des éditeurs de texte modernes permettant d\u0026rsquo;écrire du code HTML \u0026amp; CSS plus facilement.\n"
 },
 {
 	"uri": "http://example.org/",

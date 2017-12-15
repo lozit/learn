@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title> :: Apprendre HTML et CSS</title>
+    <title>Selecteurs :: Apprendre HTML et CSS</title>
     
     
     <link href="/css/nucleus.css?1513326243" rel="stylesheet">
@@ -50,7 +50,7 @@
 
 
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/htmlcss/css/selecteurs/">
     <nav id="sidebar" class="">
 
 
@@ -92,7 +92,7 @@ Accueil
   
     
     <li data-nav-id="/htmlcss/" title="HTML &amp; CSS" class="dd-item 
-        
+        parent
         
         
         ">
@@ -119,7 +119,7 @@ Accueil
   
     
     <li data-nav-id="/htmlcss/css/" title="CSS" class="dd-item 
-        
+        parent
         
         
         ">
@@ -143,7 +143,7 @@ Accueil
  
   
     
-      <li data-nav-id="/htmlcss/css/selecteurs/" title="Selecteurs" class="dd-item ">
+      <li data-nav-id="/htmlcss/css/selecteurs/" title="Selecteurs" class="dd-item active">
         <a href="/htmlcss/css/selecteurs/">
         Selecteurs
         
@@ -304,27 +304,372 @@ Accueil
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'></a> > <a href='/htmlcss/'>HTML & CSS</a> > <a href='/htmlcss/css/'>CSS</a> > Selecteurs
+          
+         
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
 
         
         <div id="body-inner">
           
+            <h1>Selecteurs</h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
-</span>
 
- 
+<p>Pour plus de détail, voir l&rsquo;article suivant :
+<a href="https://code.tutsplus.com/fr/tutorials/the-30-css-selectors-you-must-memorize--net-16048">Les 30 Sélecteurs CSS à Absolument Connaître</a></p>
+
+<table>
+<thead>
+<tr>
+<th>Les&nbsp;sélecteurs</th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>.class</td>
+<td>Tous les éléments qui ont une .class</td>
+</tr>
+
+<tr>
+<td>#id</td>
+<td>Tous les éléments qui ont un #id (normalement un seul)</td>
+</tr>
+
+<tr>
+<td>*</td>
+<td>Tous les éléments</td>
+</tr>
+
+<tr>
+<td>div</td>
+<td>Toutes les balises div</td>
+</tr>
+
+<tr>
+<td>div p</td>
+<td>Toutes les balises p à l&rsquo;intérieur d&rsquo;une autre balise div, sans être forcément un enfant direct</td>
+</tr>
+
+<tr>
+<td>div, p</td>
+<td>Toutes les balises div et toutes les balises p</td>
+</tr>
+
+<tr>
+<td>div &gt; p</td>
+<td>Toutes les balises p qui sont enfants directs d&rsquo;une balise div</td>
+</tr>
+
+<tr>
+<td>div + p</td>
+<td>Toutes les balises p placées juste après une div (au même niveau)</td>
+</tr>
+
+<tr>
+<td>div ~ p</td>
+<td>Selects all &lt;p&gt; elements that follow, and are siblings of, &lt;div&gt; elements</td>
+</tr>
+</tbody>
+</table>
+
+<p><p data-height="265" data-theme-id="0" data-slug-hash="BJNveJ" data-default-tab="html,result" data-user="afpa-designerweb" data-embed-version="2" data-pen-title="div + p" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/afpa-designerweb/pen/BJNveJ/">div + p</a> by AFPA - Webdesigner (<a href="https://codepen.io/afpa-designerweb">@afpa-designerweb</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></p>
+
+<table>
+<thead>
+<tr>
+<th>Les&nbsp;attributs</th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>[attribute]</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>[attribute=value]</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>[attribute~=value]</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>[attribute|=value]</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>[attribute^=value]</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>[attribute$=value]</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>[attribute*=value]</td>
+<td>xxxxxxx</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th>Pseudo-classes</th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>a:link</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>a:visited</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>a:hover</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>a:active</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p::after</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p::before</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:checked</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:disabled</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:empty</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:enabled</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:first-child</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p::first-letter</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p::first-line</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:first-of-type</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:focus</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:in-range</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:invalid</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:lang(language)</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:last-child</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:last-of-type</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>:not(p)</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:nth-child(2)</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:nth-last-child(2)</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:nth-last-of-type(2)</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:nth-of-type(2)</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:only-of-type</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>p:only-child</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:optional</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:out-of-range</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:read-only</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:read-write</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:required</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>:root</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>::selection</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>#id:target</td>
+<td>xxxxxxx</td>
+</tr>
+
+<tr>
+<td>input:valid</td>
+<td>xxxxxxx</td>
+</tr>
+</tbody>
+</table>
 
 
-<h1 id="bienvenue">Bienvenue</h1>
-
-<p>Ce site me sert de fourre-tout : vous y trouverez des cours et des ressources sur le design web.</p>
-
-<p>Un mélange de production personnelle, de liens utiles et de traductions d&rsquo;articles.</p>
+<footer class=" footline" >
 	
-  
+</footer>
+
+
         
         </div> 
         
@@ -356,8 +701,6 @@ Accueil
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -374,6 +717,7 @@ Accueil
             
                 
                     
+                    
                 
                 
 
@@ -386,6 +730,7 @@ Accueil
             
             
                 
+                    
                     
                 
                 
@@ -406,18 +751,8 @@ Accueil
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -426,9 +761,6 @@ Accueil
                     
                     
 
-                    
-            
-        
                     
                         
             
@@ -478,6 +810,22 @@ Accueil
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -491,8 +839,10 @@ Accueil
 
 
         
+            <a class="nav nav-prev" href="/htmlcss/css/" title="CSS"> <i class="fa fa-chevron-left"></i></a>
         
-            <a class="nav nav-next" href="/htmlcss/" title="HTML &amp; CSS" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+            <a class="nav nav-next" href="/htmlcss/emmet/" title="Emmet" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -522,3 +872,4 @@ Accueil
 
   </body>
 </html>
+
