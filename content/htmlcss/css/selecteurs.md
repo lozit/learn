@@ -3,8 +3,11 @@ title = "Selecteurs"
 weight = 2
 +++
 
-Pour plus de détail, voir l'article suivant :
+Pour plus de détails, voir l'article suivant :
 [Les 30 Sélecteurs CSS à Absolument Connaître](https://code.tutsplus.com/fr/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+
+Pour s'entrainer sur les sélecteurs :
+[CSS Dinner](http://flukeout.github.io/)
 
 | Les&nbsp;sélecteurs  |  |
 | ------  | -------------------------------- |
