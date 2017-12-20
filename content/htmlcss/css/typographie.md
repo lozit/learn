@@ -1,5 +1,5 @@
 +++
 title = "La Typographie"
-weight = 6
+weight = 60
 +++
 

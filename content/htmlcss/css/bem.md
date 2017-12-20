@@ -1,6 +1,6 @@
 +++
 title = "BEM"
-weight = 8
+weight = 120
 +++
 
 ## méthodologie du nommage : BEM
