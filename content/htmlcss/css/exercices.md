@@ -1,6 +1,6 @@
 +++
 title = "Exercices"
-weight = 3
+weight = 30
 +++
 
 ## Flexbox

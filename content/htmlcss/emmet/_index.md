@@ -1,11 +1,11 @@
 +++
 title = "Emmet"
 weight = 10
-pre = "<b>X. </b>"
+pre = "<b>3. </b>"
 chapter = true
 +++
 
-### Chapitre X
+### Chapitre 3
 
 # Emmet
 
