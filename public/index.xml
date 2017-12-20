@@ -11,13 +11,12 @@
     
     
     <item>
-      <title>Selecteurs</title>
-      <link>http://example.org/htmlcss/css/selecteurs/</link>
+      <title>Introduction</title>
+      <link>http://example.org/htmlcss/html/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/htmlcss/css/selecteurs/</guid>
-      <description>Pour plus de détail, voir l&amp;rsquo;article suivant : Les 30 Sélecteurs CSS à Absolument Connaître
-   Les&amp;nbsp;sélecteurs      .class Tous les éléments qui ont une .class   #id Tous les éléments qui ont un #id (normalement un seul)   * Tous les éléments   div Toutes les balises div   div p Toutes les balises p à l&amp;rsquo;intérieur d&amp;rsquo;une autre balise div, sans être forcément un enfant direct   div, p Toutes les balises div et toutes les balises p   div &amp;gt; p Toutes les balises p qui sont enfants directs d&amp;rsquo;une balise div   div + p Toutes les balises p placées juste après une div (au même niveau)   div ~ p Selects all &amp;lt;p&amp;gt; elements that follow, and are siblings of, &amp;lt;div&amp;gt; elements    See the Pen div + p by AFPA - Webdesigner (@afpa-designerweb) on CodePen.</description>
+      <guid>http://example.org/htmlcss/html/introduction/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -27,6 +26,15 @@
       
       <guid>http://example.org/htmlcss/emmet/installation/</guid>
       <description>Installation Bracket  Lancer Brackets. Selectionner Fichier &amp;gt; Gestionnaire d&amp;rsquo;extension&amp;hellip; Chercher l&amp;rsquo;extension &amp;ldquo;Emmet&amp;rdquo; et cliquer sur le bouton &amp;ldquo;Installer&amp;rdquo;  Visual studio code  Rien a faire, emmet est déjà installé  Atom  Lancer Atom Ouvrir &amp;ldquo;Preferences&amp;rdquo; Aller à la section &amp;ldquo;installation&amp;rdquo; Chercher le package &amp;ldquo;Emmet&amp;rdquo; et cliquer sur le bouton &amp;ldquo;Installer&amp;rdquo;  Sublime Text  Si ce n&amp;rsquo;est pas fait, installer Package control en allant sur Tools -&amp;gt; Command Palette (Ctrl + Shift + P) -&amp;gt; installer Package control Aller sur Tools -&amp;gt; Command Palette (Ctrl + Shift + P) Taper &amp;ldquo;Package Control: Install Package&amp;rdquo; Taper Emmet dans la fenetre qui s&amp;rsquo;ouvre Cliquer sur Emmet pour l&amp;rsquo;installer  Pour installer emmet sur un autre éditeur de texte, suivez les instructions sur le site officiel.</description>
+    </item>
+    
+    <item>
+      <title>Sémantique</title>
+      <link>http://example.org/htmlcss/html/semantique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/html/semantique/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -64,6 +72,109 @@ Néanmoins, vous pouvez travailler morçeau par morçeau en utilisant tab pour g
       <description>Pour finir cette série sur Emmet, vous devez répondre à ce Quizz Emmet
 Bonne chance !
 &amp;lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--&amp;gt;var editor = CodeMirror.fromTextArea(document.getElementById(&#34;code&#34;), {mode: &#34;text/html&#34;,profile: &#39;xhtml&#39;,theme: &#34;monokai&#34;});emmetCodeMirror(editor, {&#39;Tab&#39;: &#39;emmet.expand_abbreviation_with_tab&#39;}); </description>
+    </item>
+    
+    <item>
+      <title>Principe</title>
+      <link>http://example.org/htmlcss/css/principe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/principe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selecteurs</title>
+      <link>http://example.org/htmlcss/css/selecteurs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/selecteurs/</guid>
+      <description>Pour plus de détails, voir l&amp;rsquo;article suivant : Les 30 Sélecteurs CSS à Absolument Connaître
+Pour s&amp;rsquo;entrainer sur les sélecteurs : CSS Dinner
+   Les&amp;nbsp;sélecteurs      .class Tous les éléments qui ont une .class   #id Tous les éléments qui ont un #id (normalement un seul)   * Tous les éléments   div Toutes les balises div   div p Toutes les balises p à l&amp;rsquo;intérieur d&amp;rsquo;une autre balise div, sans être forcément un enfant direct   div, p Toutes les balises div et toutes les balises p   div &amp;gt; p Toutes les balises p qui sont enfants directs d&amp;rsquo;une balise div   div + p Toutes les balises p placées juste après une div (au même niveau)   div ~ p Selects all &amp;lt;p&amp;gt; elements that follow, and are siblings of, &amp;lt;div&amp;gt; elements    See the Pen div + p by AFPA - Webdesigner (@afpa-designerweb) on CodePen.</description>
+    </item>
+    
+    <item>
+      <title>Le positionnement</title>
+      <link>http://example.org/htmlcss/css/positionnement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/positionnement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grid</title>
+      <link>http://example.org/htmlcss/css/grid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/grid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La Typographie</title>
+      <link>http://example.org/htmlcss/css/typographie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/typographie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flexbox</title>
+      <link>http://example.org/htmlcss/css/flexbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/flexbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sass</title>
+      <link>http://example.org/htmlcss/css/sass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/sass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Framework css</title>
+      <link>http://example.org/htmlcss/css/frameworks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/frameworks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BEM</title>
+      <link>http://example.org/htmlcss/css/bem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/bem/</guid>
+      <description> méthodologie du nommage : BEM XXXXX </description>
+    </item>
+    
+    <item>
+      <title>Méthode Daisy</title>
+      <link>http://example.org/htmlcss/css/daisy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/daisy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exercices</title>
+      <link>http://example.org/htmlcss/css/exercices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/htmlcss/css/exercices/</guid>
+      <description> Flexbox Flexbox Froggy Les exercices flexbox
+Grid CSS Grid Garden Refaire le dernier exercice avec Flexbox.
+Le combo final En utilisant Flexbox et Grid, refaire la mise en page suivante : </description>
     </item>
     
   </channel>

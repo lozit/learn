@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/htmlcss/html/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/htmlcss/</loc>
   </url>
   
@@ -11,11 +15,15 @@
   </url>
   
   <url>
-    <loc>http://example.org/htmlcss/css/selecteurs/</loc>
+    <loc>http://example.org/htmlcss/html/introduction/</loc>
   </url>
   
   <url>
     <loc>http://example.org/htmlcss/emmet/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/html/semantique/</loc>
   </url>
   
   <url>
@@ -32,6 +40,50 @@
   
   <url>
     <loc>http://example.org/htmlcss/emmet/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/css/principe/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/css/selecteurs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/css/positionnement/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/css/grid/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/css/typographie/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/css/flexbox/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/css/sass/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/css/frameworks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/css/bem/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/css/daisy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/htmlcss/css/exercices/</loc>
   </url>
   
   <url>

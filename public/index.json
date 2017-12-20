@@ -1,5 +1,12 @@
 [
 {
+	"uri": "http://example.org/htmlcss/html/",
+	"title": "HTML",
+	"tags": [],
+	"description": "",
+	"content": " Chapitre 1 HTML Le HTML est le language permettant de décrire le contenu d\u0026rsquo;une page.\n"
+},
+{
 	"uri": "http://example.org/htmlcss/",
 	"title": "HTML &amp; CSS",
 	"tags": [],
@@ -14,11 +21,11 @@
 	"content": " Chapitre 2 CSS Le CSS est le language permettant de mettre en forme du code HTML.\n"
 },
 {
-	"uri": "http://example.org/htmlcss/css/selecteurs/",
-	"title": "Selecteurs",
+	"uri": "http://example.org/htmlcss/html/introduction/",
+	"title": "Introduction",
 	"tags": [],
 	"description": "",
-	"content": "Pour plus de détail, voir l\u0026rsquo;article suivant : Les 30 Sélecteurs CSS à Absolument Connaître\n   Les\u0026nbsp;sélecteurs      .class Tous les éléments qui ont une .class   #id Tous les éléments qui ont un #id (normalement un seul)   * Tous les éléments   div Toutes les balises div   div p Toutes les balises p à l\u0026rsquo;intérieur d\u0026rsquo;une autre balise div, sans être forcément un enfant direct   div, p Toutes les balises div et toutes les balises p   div \u0026gt; p Toutes les balises p qui sont enfants directs d\u0026rsquo;une balise div   div + p Toutes les balises p placées juste après une div (au même niveau)   div ~ p Selects all \u0026lt;p\u0026gt; elements that follow, and are siblings of, \u0026lt;div\u0026gt; elements    See the Pen div + p by AFPA - Webdesigner (@afpa-designerweb) on CodePen.\n\n   Les\u0026nbsp;attributs      [attribute] xxxxxxx   [attribute=value] xxxxxxx   [attribute~=value] xxxxxxx   [attribute|=value] xxxxxxx   [attribute^=value] xxxxxxx   [attribute$=value] xxxxxxx   [attribute*=value] xxxxxxx       Pseudo-classes      a:link xxxxxxx   a:visited xxxxxxx   a:hover xxxxxxx   a:active xxxxxxx   p::after xxxxxxx   p::before xxxxxxx   input:checked xxxxxxx   input:disabled xxxxxxx   p:empty xxxxxxx   input:enabled xxxxxxx   p:first-child xxxxxxx   p::first-letter xxxxxxx   p::first-line xxxxxxx   p:first-of-type xxxxxxx   input:focus xxxxxxx   input:in-range xxxxxxx   input:invalid xxxxxxx   p:lang(language) xxxxxxx   p:last-child xxxxxxx   p:last-of-type xxxxxxx   :not(p) xxxxxxx   p:nth-child(2) xxxxxxx   p:nth-last-child(2) xxxxxxx   p:nth-last-of-type(2) xxxxxxx   p:nth-of-type(2) xxxxxxx   p:only-of-type xxxxxxx   p:only-child xxxxxxx   input:optional xxxxxxx   input:out-of-range xxxxxxx   input:read-only xxxxxxx   input:read-write xxxxxxx   input:required xxxxxxx   :root xxxxxxx   ::selection xxxxxxx   #id:target xxxxxxx   input:valid xxxxxxx    "
+	"content": ""
 },
 {
 	"uri": "http://example.org/htmlcss/emmet/installation/",
@@ -26,6 +33,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Installation Bracket  Lancer Brackets. Selectionner Fichier \u0026gt; Gestionnaire d\u0026rsquo;extension\u0026hellip; Chercher l\u0026rsquo;extension \u0026ldquo;Emmet\u0026rdquo; et cliquer sur le bouton \u0026ldquo;Installer\u0026rdquo;  Visual studio code  Rien a faire, emmet est déjà installé  Atom  Lancer Atom Ouvrir \u0026ldquo;Preferences\u0026rdquo; Aller à la section \u0026ldquo;installation\u0026rdquo; Chercher le package \u0026ldquo;Emmet\u0026rdquo; et cliquer sur le bouton \u0026ldquo;Installer\u0026rdquo;  Sublime Text  Si ce n\u0026rsquo;est pas fait, installer Package control en allant sur Tools -\u0026gt; Command Palette (Ctrl + Shift + P) -\u0026gt; installer Package control Aller sur Tools -\u0026gt; Command Palette (Ctrl + Shift + P) Taper \u0026ldquo;Package Control: Install Package\u0026rdquo; Taper Emmet dans la fenetre qui s\u0026rsquo;ouvre Cliquer sur Emmet pour l\u0026rsquo;installer  Pour installer emmet sur un autre éditeur de texte, suivez les instructions sur le site officiel.\n"
+},
+{
+	"uri": "http://example.org/htmlcss/html/semantique/",
+	"title": "Sémantique",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "http://example.org/htmlcss/emmet/exercices/",
@@ -53,7 +67,84 @@
 	"title": "Emmet",
 	"tags": [],
 	"description": "",
-	"content": " Chapitre X Emmet Emmet est un module pour la plupart des éditeurs de texte modernes permettant d\u0026rsquo;écrire du code HTML \u0026amp; CSS plus facilement.\n"
+	"content": " Chapitre 3 Emmet Emmet est un module pour la plupart des éditeurs de texte modernes permettant d\u0026rsquo;écrire du code HTML \u0026amp; CSS plus facilement.\n"
+},
+{
+	"uri": "http://example.org/htmlcss/css/principe/",
+	"title": "Principe",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/htmlcss/css/selecteurs/",
+	"title": "Selecteurs",
+	"tags": [],
+	"description": "",
+	"content": "Pour plus de détails, voir l\u0026rsquo;article suivant : Les 30 Sélecteurs CSS à Absolument Connaître\nPour s\u0026rsquo;entrainer sur les sélecteurs : CSS Dinner\n   Les\u0026nbsp;sélecteurs      .class Tous les éléments qui ont une .class   #id Tous les éléments qui ont un #id (normalement un seul)   * Tous les éléments   div Toutes les balises div   div p Toutes les balises p à l\u0026rsquo;intérieur d\u0026rsquo;une autre balise div, sans être forcément un enfant direct   div, p Toutes les balises div et toutes les balises p   div \u0026gt; p Toutes les balises p qui sont enfants directs d\u0026rsquo;une balise div   div + p Toutes les balises p placées juste après une div (au même niveau)   div ~ p Selects all \u0026lt;p\u0026gt; elements that follow, and are siblings of, \u0026lt;div\u0026gt; elements    See the Pen div + p by AFPA - Webdesigner (@afpa-designerweb) on CodePen.\n\n   Les\u0026nbsp;attributs      [attribute] xxxxxxx   [attribute=value] xxxxxxx   [attribute~=value] xxxxxxx   [attribute|=value] xxxxxxx   [attribute^=value] xxxxxxx   [attribute$=value] xxxxxxx   [attribute*=value] xxxxxxx       Pseudo-classes      a:link xxxxxxx   a:visited xxxxxxx   a:hover xxxxxxx   a:active xxxxxxx   p::after xxxxxxx   p::before xxxxxxx   input:checked xxxxxxx   input:disabled xxxxxxx   p:empty xxxxxxx   input:enabled xxxxxxx   p:first-child xxxxxxx   p::first-letter xxxxxxx   p::first-line xxxxxxx   p:first-of-type xxxxxxx   input:focus xxxxxxx   input:in-range xxxxxxx   input:invalid xxxxxxx   p:lang(language) xxxxxxx   p:last-child xxxxxxx   p:last-of-type xxxxxxx   :not(p) xxxxxxx   p:nth-child(2) xxxxxxx   p:nth-last-child(2) xxxxxxx   p:nth-last-of-type(2) xxxxxxx   p:nth-of-type(2) xxxxxxx   p:only-of-type xxxxxxx   p:only-child xxxxxxx   input:optional xxxxxxx   input:out-of-range xxxxxxx   input:read-only xxxxxxx   input:read-write xxxxxxx   input:required xxxxxxx   :root xxxxxxx   ::selection xxxxxxx   #id:target xxxxxxx   input:valid xxxxxxx    "
+},
+{
+	"uri": "http://example.org/htmlcss/css/positionnement/",
+	"title": "Le positionnement",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/htmlcss/css/grid/",
+	"title": "Grid",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/htmlcss/css/typographie/",
+	"title": "La Typographie",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/htmlcss/css/flexbox/",
+	"title": "Flexbox",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/htmlcss/css/sass/",
+	"title": "Sass",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/htmlcss/css/frameworks/",
+	"title": "Framework css",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/htmlcss/css/bem/",
+	"title": "BEM",
+	"tags": [],
+	"description": "",
+	"content": " méthodologie du nommage : BEM XXXXX "
+},
+{
+	"uri": "http://example.org/htmlcss/css/daisy/",
+	"title": "Méthode Daisy",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/htmlcss/css/exercices/",
+	"title": "Exercices",
+	"tags": [],
+	"description": "",
+	"content": " Flexbox Flexbox Froggy Les exercices flexbox\nGrid CSS Grid Garden Refaire le dernier exercice avec Flexbox.\nLe combo final En utilisant Flexbox et Grid, refaire la mise en page suivante : "
 },
 {
 	"uri": "http://example.org/",
