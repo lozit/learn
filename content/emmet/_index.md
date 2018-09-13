@@ -1,11 +1,9 @@
 +++
-title = "Emmet"
-weight = 10
-pre = "<b>3. </b>"
+title = "EMMET"
+weight = 100
 chapter = true
 +++
 
-### Chapitre 3
 
 # Emmet
 

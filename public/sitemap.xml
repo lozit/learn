@@ -3,7 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/htmlcss/html/</loc>
+    <loc>http://example.org/emmet/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/emmet/exercices/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/emmet/exercice-site/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/emmet/validation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/design/</loc>
   </url>
   
   <url>
@@ -11,79 +27,11 @@
   </url>
   
   <url>
-    <loc>http://example.org/htmlcss/css/</loc>
+    <loc>http://example.org/wordpress/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/htmlcss/html/introduction/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/emmet/installation/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/html/semantique/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/emmet/exercices/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/emmet/exercice-site/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/emmet/validation/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/emmet/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/css/principe/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/css/selecteurs/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/css/positionnement/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/css/grid/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/css/typographie/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/css/flexbox/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/css/sass/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/css/frameworks/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/css/bem/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/css/daisy/</loc>
-  </url>
-  
-  <url>
-    <loc>http://example.org/htmlcss/css/exercices/</loc>
+    <loc>http://example.org/emmet/</loc>
   </url>
   
   <url>

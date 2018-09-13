@@ -1,157 +1,66 @@
 [
 {
-	"uri": "http://example.org/htmlcss/html/",
-	"title": "HTML",
-	"tags": [],
-	"description": "",
-	"content": " Chapitre 1 HTML Le HTML est le language permettant de décrire le contenu d\u0026rsquo;une page.\n"
-},
-{
-	"uri": "http://example.org/htmlcss/",
-	"title": "HTML &amp; CSS",
-	"tags": [],
-	"description": "",
-	"content": " HTML \u0026amp; CSS Learn to Code HTML \u0026amp; CSS is a simple and comprehensive guide dedicated to helping beginners learn HTML and CSS. Outlining the fundamentals, this guide works through all common elements of front-end design and development.\n"
-},
-{
-	"uri": "http://example.org/htmlcss/css/",
-	"title": "CSS",
-	"tags": [],
-	"description": "",
-	"content": " Chapitre 2 CSS Le CSS est le language permettant de mettre en forme du code HTML.\n"
-},
-{
-	"uri": "http://example.org/htmlcss/html/introduction/",
-	"title": "Introduction",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://example.org/htmlcss/emmet/installation/",
+	"uri": "http://example.org/emmet/installation/",
 	"title": "Installation",
 	"tags": [],
 	"description": "",
 	"content": " Installation Bracket  Lancer Brackets. Selectionner Fichier \u0026gt; Gestionnaire d\u0026rsquo;extension\u0026hellip; Chercher l\u0026rsquo;extension \u0026ldquo;Emmet\u0026rdquo; et cliquer sur le bouton \u0026ldquo;Installer\u0026rdquo;  Visual studio code  Rien a faire, emmet est déjà installé  Atom  Lancer Atom Ouvrir \u0026ldquo;Preferences\u0026rdquo; Aller à la section \u0026ldquo;installation\u0026rdquo; Chercher le package \u0026ldquo;Emmet\u0026rdquo; et cliquer sur le bouton \u0026ldquo;Installer\u0026rdquo;  Sublime Text  Si ce n\u0026rsquo;est pas fait, installer Package control en allant sur Tools -\u0026gt; Command Palette (Ctrl + Shift + P) -\u0026gt; installer Package control Aller sur Tools -\u0026gt; Command Palette (Ctrl + Shift + P) Taper \u0026ldquo;Package Control: Install Package\u0026rdquo; Taper Emmet dans la fenetre qui s\u0026rsquo;ouvre Cliquer sur Emmet pour l\u0026rsquo;installer  Pour installer emmet sur un autre éditeur de texte, suivez les instructions sur le site officiel.\n"
 },
 {
-	"uri": "http://example.org/htmlcss/html/semantique/",
-	"title": "Sémantique",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://example.org/htmlcss/emmet/exercices/",
+	"uri": "http://example.org/emmet/exercices/",
 	"title": "Exercices",
 	"tags": [],
 	"description": "",
-	"content": "Article original par Kevin McMillan\nEn utilisant la documentation officielle d\u0026rsquo;Emmet et en particulier l\u0026rsquo;Antisèche, réalisez les tâches suivantes :\n Faites une liste de menu de 12 liens (\u0026ldquo;#\u0026rdquo;). Le texte du lien doit s\u0026rsquo;incrémenter pour chaque lien. Par exemple : lien01, lien02, lien03 etc. Réponse\rul(lia[href=\"#\"]{lien$$})*12\r\r\n Enrichissez la liste précédente : chaque lien doit aussi contenir une balise span avec les classes necessaires pour Font Awesome : class=\u0026ldquo;fa fa-\u0026rdquo; Réponse\rul(lia[href=”#”]span.fa.fa-+{link$$})*12\r\r\n Enrichissez la liste précédente : chaque lien doit être contenu dans une nouvelle class \u0026ldquo;visuallyhidden\u0026rdquo;. Réponse\rul(lia[href=”#”]span.fa.fa-+span.visuallyhidden{link$$})*12\r\r\n Faites trois div à la suite avec comme class \u0026ldquo;clearfix\u0026rdquo; et \u0026ldquo;row\u0026rdquo;. Chaque div doit contenir 4 articles. Chaque article doit avoir un h1 avec 3 mots de lorem ipsum, un h2 avec deux mots de lorem ipsum et un p avec 17 motes de lorem ipsum. Réponse\r(div.clearfix.row.row$(articleh1lorem3^h2lorem2^plorem17)*4)*3\r\r\n Faites une table avec :\n une légende qui dit \u0026ldquo;Horaire de bus\u0026rdquo; un en-tête avec trois colonnes quatre lignes avec trois colonnes Réponse\rtablecaption{Bus Schedule}+(trtd*3)*4\r\r   \r\u0026lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--\u0026gt;\r\rvar editor = CodeMirror.fromTextArea(document.getElementById(\"code\"), {\rmode: \"text/html\",\rprofile: 'xhtml',\rtheme: \"monokai\"\r});\remmetCodeMirror(editor, {\r'Tab': 'emmet.expand_abbreviation_with_tab'\r});\r\r "
+	"content": "Article original par Kevin McMillan\nEn utilisant la documentation officielle d\u0026rsquo;Emmet et en particulier l\u0026rsquo;Antisèche, réalisez les tâches suivantes :\n Faites une liste de menu de 12 liens (\u0026ldquo;#\u0026rdquo;). Le texte du lien doit s\u0026rsquo;incrémenter pour chaque lien. Par exemple : lien01, lien02, lien03 etc. Réponse ul(lia[href=\"#\"]{lien$$})*12  \n Enrichissez la liste précédente : chaque lien doit aussi contenir une balise span avec les classes necessaires pour Font Awesome : class=\u0026ldquo;fa fa-\u0026rdquo; Réponse ul(lia[href=”#”]span.fa.fa-+{link$$})*12  \n Enrichissez la liste précédente : chaque lien doit être contenu dans une nouvelle class \u0026ldquo;visuallyhidden\u0026rdquo;. Réponse ul(lia[href=”#”]span.fa.fa-+span.visuallyhidden{link$$})*12  \n Faites trois div à la suite avec comme class \u0026ldquo;clearfix\u0026rdquo; et \u0026ldquo;row\u0026rdquo;. Chaque div doit contenir 4 articles. Chaque article doit avoir un h1 avec 3 mots de lorem ipsum, un h2 avec deux mots de lorem ipsum et un p avec 17 motes de lorem ipsum. Réponse (div.clearfix.row.row$(articleh1lorem3^h2lorem2^plorem17)*4)*3  \n Faites une table avec :\n une légende qui dit \u0026ldquo;Horaire de bus\u0026rdquo; un en-tête avec trois colonnes quatre lignes avec trois colonnes Réponse tablecaption{Bus Schedule}+(trtd*3)*4      \u0026lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--\u0026gt;  var editor = CodeMirror.fromTextArea(document.getElementById(\"code\"), { mode: \"text/html\", profile: 'xhtml', theme: \"monokai\" }); emmetCodeMirror(editor, { 'Tab': 'emmet.expand_abbreviation_with_tab' });   "
 },
 {
-	"uri": "http://example.org/htmlcss/emmet/exercice-site/",
+	"uri": "http://example.org/emmet/exercice-site/",
 	"title": "Exercice final",
 	"tags": [],
 	"description": "",
-	"content": "Article original par Kevin McMillan\nDans cet exercice, vous allez utiliser Emmet pour produire l\u0026rsquo;architecture du site suivant.\nPour les images, utilisez le service lorempixel.com et pour le texte, la fonctionnalité d\u0026rsquo;Emmet \u0026ldquo;Lorem\u0026rdquo;.\nL\u0026rsquo;objectif est de produire la structure du site. Ne vous souciez pas de l\u0026rsquo;apparence mais plutôt de la sémantique de votre code.\nVous devez créer le code en une seule équation Emmet.\nNéanmoins, vous pouvez travailler morçeau par morçeau en utilisant tab pour générer votre code, puis command/control+z pour revenir à votre équation.\n\r\u0026lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--\u0026gt;\r\rvar editor = CodeMirror.fromTextArea(document.getElementById(\"code\"), {\rmode: \"text/html\",\rprofile: 'xhtml',\rtheme: \"monokai\"\r});\remmetCodeMirror(editor, {\r'Tab': 'emmet.expand_abbreviation_with_tab'\r});\r\r "
+	"content": "Article original par Kevin McMillan\nDans cet exercice, vous allez utiliser Emmet pour produire l\u0026rsquo;architecture du site suivant.\nPour les images, utilisez le service lorempixel.com et pour le texte, la fonctionnalité d\u0026rsquo;Emmet \u0026ldquo;Lorem\u0026rdquo;.\nL\u0026rsquo;objectif est de produire la structure du site. Ne vous souciez pas de l\u0026rsquo;apparence mais plutôt de la sémantique de votre code.\nVous devez créer le code en une seule équation Emmet.\nNéanmoins, vous pouvez travailler morçeau par morçeau en utilisant tab pour générer votre code, puis command/control+z pour revenir à votre équation.\n \u0026lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--\u0026gt;  var editor = CodeMirror.fromTextArea(document.getElementById(\"code\"), { mode: \"text/html\", profile: 'xhtml', theme: \"monokai\" }); emmetCodeMirror(editor, { 'Tab': 'emmet.expand_abbreviation_with_tab' });   "
 },
 {
-	"uri": "http://example.org/htmlcss/emmet/validation/",
+	"uri": "http://example.org/emmet/validation/",
 	"title": "Validation",
 	"tags": [],
 	"description": "",
-	"content": "Pour finir cette série sur Emmet, vous devez répondre à ce Quizz Emmet\nBonne chance !\n\r\u0026lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--\u0026gt;\r\rvar editor = CodeMirror.fromTextArea(document.getElementById(\"code\"), {\rmode: \"text/html\",\rprofile: 'xhtml',\rtheme: \"monokai\"\r});\remmetCodeMirror(editor, {\r'Tab': 'emmet.expand_abbreviation_with_tab'\r});\r\r "
+	"content": "Pour finir cette série sur Emmet, vous devez répondre à ce Quizz Emmet\nBonne chance !\n \u0026lt;!-- VOUS POUVEZ TESTER ICI VOTRE CODE EMMET--\u0026gt;  var editor = CodeMirror.fromTextArea(document.getElementById(\"code\"), { mode: \"text/html\", profile: 'xhtml', theme: \"monokai\" }); emmetCodeMirror(editor, { 'Tab': 'emmet.expand_abbreviation_with_tab' });   "
 },
 {
-	"uri": "http://example.org/htmlcss/emmet/",
-	"title": "Emmet",
+	"uri": "http://example.org/design/",
+	"title": "DESIGN",
 	"tags": [],
 	"description": "",
-	"content": " Chapitre 3 Emmet Emmet est un module pour la plupart des éditeurs de texte modernes permettant d\u0026rsquo;écrire du code HTML \u0026amp; CSS plus facilement.\n"
+	"content": " Logiciels Figma / Adobe XD\nCouleurs Picular / Adobe Color\nHTML Balises HTML / W3schools\nCours vidéos Skillshare (en) / Video2brain\nCours openclassroom\n"
 },
 {
-	"uri": "http://example.org/htmlcss/css/principe/",
-	"title": "Principe",
+	"uri": "http://example.org/htmlcss/",
+	"title": "HTML et CSS",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": " LES BALISES HTML Les balises HTML\nLA SEMANTIQUE Pourquoi dois-je utiliser le HTML5 sémantique\nLES BASES DU CSS Connaitre les différences entre ID/Class, Block/Inline, Div/Span : Chapitre 20 à 28 du site de Pierre Giraud\nLES SELECTEURS Savoir sélectionner un élément HTML à l\u0026rsquo;aide des sélecteurs CSS\nLes 30 Sélecteurs CSS à Absolument Connaître\nConnaître la priorité des sélecteurs\nMISE EN FORME Savoir mettre en forme du texte : Chapitre 29 à 34 du site de Pierre Giraud\nConnaitre les modeles de boite : Chapitre 35 à 44 du site de Pierre Giraud\nSavoir intégrer des médias : Chapitre 54 à 58 du site de Pierre Giraud\nPOSITIONNEMENT ET MISE EN PAGE Connaître les méthodes de mise en page \u0026ldquo;classiques\u0026rdquo; : position:static, position:relative, position: fixed, position: absolute : learnlayout\nConnaître la méthode de mise en page : Flexbox : La Cascade / Jeux pour apprendre : Flexbox Froggy et Flexbox Defence\nConnaître la méthode de mise en page : Grid Layout : La Cascade / Jeux pour apprendre : CSS Grid Garden\nPOUR SE TESTER Faire la mise en page de cette image : https://la-cascade.io/content/images/2017/03/126-640.jpg\nPuis lire cet article : https://la-cascade.io/grid-et-flexbox-le-duo-gagnant/\nORGANISATION / NOMMAGE Méthode Daisy d\u0026rsquo;organisation de CSS\nle site officiel Daisy\nBonnes pratiques en CSS : BEM et OOCSS\nCSS Avancé Les variables CSS\nLa fonction calc\nSASS Site officiel\narticle La cascade\nLES FRAMEWORKS Très connu, très utilisé mais trop \u0026ldquo;gros\u0026rdquo; pour un site web : Bootstrap\nUn framework léger : Knacss\nLES BONNES PRATIQUES Guidelines Alsacréations\nANIMATIONS CSS CSS Animations\n"
 },
 {
-	"uri": "http://example.org/htmlcss/css/selecteurs/",
-	"title": "Selecteurs",
+	"uri": "http://example.org/wordpress/",
+	"title": "WORDPRESS",
 	"tags": [],
 	"description": "",
-	"content": "Pour plus de détails, voir l\u0026rsquo;article suivant : Les 30 Sélecteurs CSS à Absolument Connaître\nPour s\u0026rsquo;entrainer sur les sélecteurs : CSS Dinner\n   Les\u0026nbsp;sélecteurs      .class Tous les éléments qui ont une .class   #id Tous les éléments qui ont un #id (normalement un seul)   * Tous les éléments   div Toutes les balises div   div p Toutes les balises p à l\u0026rsquo;intérieur d\u0026rsquo;une autre balise div, sans être forcément un enfant direct   div, p Toutes les balises div et toutes les balises p   div \u0026gt; p Toutes les balises p qui sont enfants directs d\u0026rsquo;une balise div   div + p Toutes les balises p placées juste après une div (au même niveau)   div ~ p Selects all \u0026lt;p\u0026gt; elements that follow, and are siblings of, \u0026lt;div\u0026gt; elements    See the Pen div + p by AFPA - Webdesigner (@afpa-designerweb) on CodePen.\n\n   Les\u0026nbsp;attributs      [attribute] xxxxxxx   [attribute=value] xxxxxxx   [attribute~=value] xxxxxxx   [attribute|=value] xxxxxxx   [attribute^=value] xxxxxxx   [attribute$=value] xxxxxxx   [attribute*=value] xxxxxxx       Pseudo-classes      a:link xxxxxxx   a:visited xxxxxxx   a:hover xxxxxxx   a:active xxxxxxx   p::after xxxxxxx   p::before xxxxxxx   input:checked xxxxxxx   input:disabled xxxxxxx   p:empty xxxxxxx   input:enabled xxxxxxx   p:first-child xxxxxxx   p::first-letter xxxxxxx   p::first-line xxxxxxx   p:first-of-type xxxxxxx   input:focus xxxxxxx   input:in-range xxxxxxx   input:invalid xxxxxxx   p:lang(language) xxxxxxx   p:last-child xxxxxxx   p:last-of-type xxxxxxx   :not(p) xxxxxxx   p:nth-child(2) xxxxxxx   p:nth-last-child(2) xxxxxxx   p:nth-last-of-type(2) xxxxxxx   p:nth-of-type(2) xxxxxxx   p:only-of-type xxxxxxx   p:only-child xxxxxxx   input:optional xxxxxxx   input:out-of-range xxxxxxx   input:read-only xxxxxxx   input:read-write xxxxxxx   input:required xxxxxxx   :root xxxxxxx   ::selection xxxxxxx   #id:target xxxxxxx   input:valid xxxxxxx    "
+	"content": " SITES TUTOS WP Astuce / WP Formation\n"
 },
 {
-	"uri": "http://example.org/htmlcss/css/positionnement/",
-	"title": "Le positionnement",
+	"uri": "http://example.org/emmet/",
+	"title": "EMMET",
 	"tags": [],
 	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://example.org/htmlcss/css/grid/",
-	"title": "Grid",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://example.org/htmlcss/css/typographie/",
-	"title": "La Typographie",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://example.org/htmlcss/css/flexbox/",
-	"title": "Flexbox",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://example.org/htmlcss/css/sass/",
-	"title": "Sass",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://example.org/htmlcss/css/frameworks/",
-	"title": "Framework css",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://example.org/htmlcss/css/bem/",
-	"title": "BEM",
-	"tags": [],
-	"description": "",
-	"content": " méthodologie du nommage : BEM XXXXX "
-},
-{
-	"uri": "http://example.org/htmlcss/css/daisy/",
-	"title": "Méthode Daisy",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://example.org/htmlcss/css/exercices/",
-	"title": "Exercices",
-	"tags": [],
-	"description": "",
-	"content": " Flexbox Flexbox Froggy Les exercices flexbox\nGrid CSS Grid Garden Refaire le dernier exercice avec Flexbox.\nLe combo final En utilisant Flexbox et Grid, refaire la mise en page suivante : "
+	"content": " Emmet Emmet est un module pour la plupart des éditeurs de texte modernes permettant d\u0026rsquo;écrire du code HTML \u0026amp; CSS plus facilement.\n"
 },
 {
 	"uri": "http://example.org/",
 	"title": "",
 	"tags": [],
 	"description": "",
-	"content": " Bienvenue Ce site me sert de fourre-tout : vous y trouverez des cours et des ressources sur le design web.\nUn mélange de production personnelle, de liens utiles et de traductions d\u0026rsquo;articles.\n"
+	"content": " Bienvenue Ce site est une bibliothèque de liens pour aider une personne travaillant sur le site Designer Web.\n"
 },
 {
 	"uri": "http://example.org/categories/",
