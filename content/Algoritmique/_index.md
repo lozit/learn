@@ -1,6 +1,6 @@
 +++
-title = "Algorithmique"
-weight = 50
+title = "ALGORITHMIQUE"
+weight = 160
 +++
 
 ### Cours
