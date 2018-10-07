@@ -49,6 +49,13 @@
 	"content": " SITES TUTOS WP Astuce / WP Formation\n"
 },
 {
+	"uri": "http://example.org/algoritmique/",
+	"title": "Algorithmique",
+	"tags": [],
+	"description": "",
+	"content": " Cours pise.info\n"
+},
+{
 	"uri": "http://example.org/emmet/",
 	"title": "EMMET",
 	"tags": [],
