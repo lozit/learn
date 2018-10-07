@@ -49,18 +49,18 @@
 	"content": " SITES TUTOS WP Astuce / WP Formation\n"
 },
 {
-	"uri": "http://example.org/algoritmique/",
-	"title": "Algorithmique",
-	"tags": [],
-	"description": "",
-	"content": " Cours pise.info\n"
-},
-{
 	"uri": "http://example.org/emmet/",
 	"title": "EMMET",
 	"tags": [],
 	"description": "",
 	"content": " Emmet Emmet est un module pour la plupart des éditeurs de texte modernes permettant d\u0026rsquo;écrire du code HTML \u0026amp; CSS plus facilement.\n"
+},
+{
+	"uri": "http://example.org/algoritmique/",
+	"title": "ALGORITHMIQUE",
+	"tags": [],
+	"description": "",
+	"content": " Cours pise.info\n"
 },
 {
 	"uri": "http://example.org/",
